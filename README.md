@@ -60,8 +60,8 @@ Text is embedded by turbopuffer itself (native embedding, `voyage/voyage-4-lite`
 - **Hybrid**: one `multi_query` request with both subqueries. The app fuses the two ranked lists with
   reciprocal rank fusion (k=60, the same formula as turbopuffer's `rerank_by ("RRF",)`) so it can show
   each result's vector rank and BM25 rank.
-- **Explain**: every result has an *Explain this result* button showing its vector distance, BM25 score,
-  query words found, the RRF arithmetic and its overall position. *How turbopuffer ran this search*
+- **Explain**: every result has an *Explain* button that opens a side drawer showing its vector distance, BM25 score,
+  query words found, the RRF arithmetic and its overall position. the drawer's default view
   shows the exact requests sent plus server time, embedding time and cache state per namespace.
 - **Scope "All"**: each namespace is queried in parallel and the lists are merged client-side with
   reciprocal rank fusion. Per-namespace client and server latency is shown on the results page.
@@ -75,7 +75,8 @@ Text is embedded by turbopuffer itself (native embedding, `voyage/voyage-4-lite`
 | --- | --- |
 | `app.py` | Streamlit shell: patient picker, navigation |
 | `views/workspace.py` | Note editor per patient + copilot panel |
-| `views/search.py` | Scoped search with mode toggle, filters, latency chips |
+| `views/search.py` | Scoped search: scope and mode toggles, filters panel |
+| `components/results.py` | Custom results view (Streamlit v2 component): result cards and the Explain drawer |
 | `tp_client.py` | turbopuffer wrapper: schemas, upsert, search modes, multi-namespace RRF, filters |
 | `notes.py` | Save/delete notes and measure time to searchable |
 | `copilot.py` | Claude tool-use loop (`search`, `read_patient_notes`) and citations |

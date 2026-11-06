@@ -26,11 +26,6 @@ mark {background: #FFF0B8; color: var(--ink); padding: 0 2px; border-radius: 3px
 .st-key-hero [data-baseweb="input"] {min-height: 56px; background: #FFFFFF; border-radius: 14px;}
 .st-key-hero input {font-size: 17px; padding-left: 18px;}
 
-/* explain buttons sit quietly under each card */
-[data-testid="stPopover"] {margin: -10px 0 8px;}
-[data-testid="stPopover"] > div > button {border: none; background: transparent; min-height: 30px;
-  padding: 0 6px; color: var(--muted); font-size: 13px;}
-[data-testid="stPopover"] > div > button:hover {color: var(--accent); background: transparent;}
 
 /* sidebar */
 section[data-testid="stSidebar"] [data-testid="stButtonGroup"] button {padding-left: 10px; padding-right: 10px;}
