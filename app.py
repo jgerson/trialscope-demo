@@ -2,6 +2,8 @@
 
     streamlit run app.py
 """
+import hmac
+
 import streamlit as st
 
 import config
@@ -9,6 +11,28 @@ import ui
 
 st.set_page_config(page_title="TrialScope", page_icon="🔎", layout="wide")
 ui.inject_css()
+
+
+def password_gate() -> None:
+    """Stop the app until the visitor enters APP_PASSWORD (skipped when it isn't set)."""
+    if not config.APP_PASSWORD or st.session_state.get("authed"):
+        return
+    _, mid, _ = st.columns([1, 1.2, 1])
+    with mid:
+        st.markdown("### TrialScope")
+        st.caption("Personal learning project · synthetic patients · not for clinical use")
+        with st.form("login", border=True):
+            pw = st.text_input("Password", type="password")
+            ok = st.form_submit_button("Enter", type="primary", width="stretch")
+        if ok:
+            if hmac.compare_digest(pw.encode(), config.APP_PASSWORD.encode()):
+                st.session_state.authed = True
+                st.rerun()
+            st.error("Wrong password.")
+    st.stop()
+
+
+password_gate()
 
 if not config.TURBOPUFFER_API_KEY:
     st.error("Set TURBOPUFFER_API_KEY in .env to start.")
@@ -24,7 +48,7 @@ with st.sidebar:
     else:
         if "patient_id" not in st.session_state:
             st.session_state.patient_id = min(p["id"] for p in pts)
-        specialty = st.radio("Panel", ["All", "Oncology", "Cardiology"], horizontal=True, label_visibility="collapsed")
+        specialty = st.segmented_control("Panel", ["All", "Oncology", "Cardiology"], default="All", key="panel") or "All"
         shown = sorted([p for p in pts if specialty == "All" or p["specialty"] == specialty], key=lambda p: p["id"])
         ids = [p["id"] for p in shown]
         if st.session_state.patient_id not in ids and ids:

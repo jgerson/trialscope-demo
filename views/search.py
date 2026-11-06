@@ -8,12 +8,11 @@ import ui
 p = ui.current_patient()
 
 SCOPES = ["This patient", "Literature", "Trials", "All"]
-c1, c2, c3 = st.columns([3.2, 2.2, 1.4])
-query = c1.text_input("Search", key="sq", placeholder="Search notes, PubMed and trials…  e.g. trastuzumab cardiotoxicity monitoring",
+query = st.text_input("Search", key="sq", placeholder="Search notes, PubMed and trials…  e.g. trastuzumab cardiotoxicity monitoring",
                       label_visibility="collapsed")
-scope = c2.segmented_control("Scope", SCOPES, default="All", key="scope", label_visibility="collapsed") or "All"
-mode = c3.segmented_control("Mode", ["hybrid", "vector", "bm25"], default="hybrid", key="mode",
-                            label_visibility="collapsed") or "hybrid"
+c1, c2, _ = st.columns([2, 1.4, 1.6], vertical_alignment="bottom")
+scope = c1.segmented_control("Search in", SCOPES, default="All", key="scope") or "All"
+mode = c2.segmented_control("Retrieval", ["hybrid", "vector", "bm25"], default="hybrid", key="mode") or "hybrid"
 
 fcol, rcol = st.columns([1, 3.2], gap="large")
 
@@ -27,7 +26,7 @@ with fcol:
                               help="Filters trials to ones whose age range and sex include the selected patient.")
     st.markdown("**PubMed**")
     year_from = st.slider("Published from", 2015, 2026, 2015)
-    topic = st.radio("Topic", ["Any", "oncology", "cardiology"], horizontal=True)
+    topic = st.selectbox("Topic", ["Any", "oncology", "cardiology"])
     top_k = st.slider("Results per source", 5, 30, 10)
 
 trial_opts = {"status": status, "phases": phases, "country": country.strip() or None}

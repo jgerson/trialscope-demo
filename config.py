@@ -48,3 +48,6 @@ def patient_ns(patient_id: str) -> str:
 
 
 TOP_K = 10
+
+# Optional: when set, visitors must enter this password before using the app.
+APP_PASSWORD = _setting("APP_PASSWORD")

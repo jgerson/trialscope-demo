@@ -11,7 +11,7 @@ import tp_client
 
 CSS = """
 <style>
-.block-container {padding-top: 1.6rem; max-width: 1500px;}
+.block-container {padding-top: 4.25rem; max-width: 1500px;}
 .ts-chip {display:inline-block; font-size:12px; padding:3px 9px; border-radius:999px; margin:0 6px 6px 0;
   background:#EEF0F3; color:#3F4A55;}
 .ts-chip.teal {background:#E6F4F2; color:#0A524C;}

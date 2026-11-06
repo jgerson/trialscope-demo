@@ -23,8 +23,10 @@ Everything is stored and searched in turbopuffer. All patients are synthetic.
    copilot; secrets can be edited later and the app picks them up on reboot.
 4. Deploy. The data already lives in turbopuffer, so the app is usable on first load.
 
-A public app lets any visitor save notes into your patient namespaces. Either set the app to
-private in its sharing settings, or add `READ_ONLY = "true"` to the secrets.
+Set `APP_PASSWORD` in the secrets and visitors must enter it before the app loads (the check
+runs server-side; the password never reaches the browser). `READ_ONLY = "true"` additionally
+blocks note edits, which is useful if you share the password. You can also make the app private
+in its Streamlit sharing settings.
 
 ## Run it locally
 

@@ -96,7 +96,7 @@ with left:
 with right:
     st.markdown("#### Copilot")
     if not config.ANTHROPIC_API_KEY:
-        st.info("The copilot needs `ANTHROPIC_API_KEY`. Add it to `.env` or the environment and restart. "
+        st.info("The copilot needs `ANTHROPIC_API_KEY`. Add it to the app's Secrets (or `.env` locally) and reboot. "
                 "Search works without it.")
         st.stop()
 
