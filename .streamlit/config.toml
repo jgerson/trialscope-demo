@@ -1,9 +1,28 @@
-[theme]
-primaryColor = "#0E6E66"
-backgroundColor = "#F6F7F9"
-secondaryBackgroundColor = "#FFFFFF"
-textColor = "#17212B"
-font = "sans serif"
+[client]
+showSidebarNavigation = true
 
 [server]
 headless = true
+
+[theme]
+base = "light"
+primaryColor = "#0B6E69"
+backgroundColor = "#F5F7F9"
+secondaryBackgroundColor = "#EEF2F5"
+textColor = "#14202B"
+linkColor = "#0B6E69"
+borderColor = "#DDE3E8"
+showWidgetBorder = true
+baseRadius = "0.6rem"
+buttonRadius = "0.6rem"
+baseFontSize = 15
+font = "Public Sans:https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap"
+headingFont = "Public Sans:https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap"
+headingFontWeights = [700, 650, 600, 600, 600, 600]
+codeFont = "IBM Plex Mono:https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap"
+metricValueFontSize = "1.5rem"
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F1F4F7"
+borderColor = "#E3E8EC"

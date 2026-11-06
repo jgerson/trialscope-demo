@@ -30,25 +30,29 @@ left, right = st.columns([1.65, 1], gap="large")
 
 # ================================================================ notes
 with left:
-    st.caption(f"{p['name']} · namespace `{config.patient_ns(pid)}`")
-    chips = [f'<span class="ts-chip">{p["age"]} · {p["sex"]}</span>',
-             f'<span class="ts-chip">{p["city"]}, {p["state"]}</span>',
-             f'<span class="ts-chip teal">{p["primary_dx"]}</span>',
-             f'<span class="ts-chip">Stage {p["stage"]}</span>' if p.get("stage") else "",
-             f'<span class="ts-chip">{p["biomarkers"]}</span>' if p.get("biomarkers") else ""]
-    st.markdown("".join(chips), unsafe_allow_html=True)
+    import html as _html
+    stage = p.get("stage") or ""
+    stage_txt = stage if stage.startswith(("NYHA", "Post", "Parox", "Persis")) else (f"stage {stage}" if stage else "")
+    st.markdown(
+        f'<div class="ts-patient"><h1>{_html.escape(p["name"])}</h1>'
+        f'<div class="sub">{p["age"]}-year-old {p["sex"].lower()}, {p["city"]}, {p["state"]}</div></div>'
+        f'<span class="ts-chip trials"><b>{_html.escape(p["primary_dx"])}</b></span>'
+        + (f'<span class="ts-chip">{stage_txt}</span>' if stage_txt else "")
+        + (f'<span class="ts-chip">{_html.escape(p["biomarkers"])}</span>' if p.get("biomarkers") else ""),
+        unsafe_allow_html=True)
+    st.markdown("")
 
     NEW = "__new__"
     options = [n["id"] for n in note_list] + [NEW]
     sel_key = f"note_sel_{pid}"
     if st.session_state.get(sel_key) not in options:
         st.session_state[sel_key] = options[0]
-    labels = {n["id"]: f"{n['visit_date']} · {n['title']}" for n in note_list}
-    labels[NEW] = "＋ New note"
+    labels = {n["id"]: f"{n['visit_date']}   {n['title']}" for n in note_list}
+    labels[NEW] = "New note"
     sel = st.selectbox("Note", options, key=sel_key, format_func=lambda i: labels[i], label_visibility="collapsed")
     note = next((n for n in note_list if n["id"] == sel), None)
 
-    edit_tab, view_tab = st.tabs(["Edit", "Preview"])
+    edit_tab, view_tab = st.tabs(["Edit", "Read"])
     with edit_tab:
         with st.form(f"form_{sel}", border=False):
             title = st.text_input("Title", value=note["title"] if note else "", placeholder="Visit note title")
@@ -72,15 +76,15 @@ with left:
         if st.session_state.get("last_save"):
             r = st.session_state.last_save
             st.markdown(
-                f'<span class="ts-chip teal">Saved · write {r["write_s"]:.2f} s · searchable '
-                f'{r["visible_s"]*1000:.0f} ms later</span>', unsafe_allow_html=True)
+                f'<span class="ts-chip trials"><b>Saved</b><span class="ts-num">written in {r["write_s"]:.2f} s, '
+                f'searchable {r["visible_s"]*1000:.0f} ms later</span></span>', unsafe_allow_html=True)
     with view_tab:
         if note:
             st.markdown(f"### {note['title']}")
-            st.caption(f"{note['visit_date']} · {note['note_type']} · {note['author']}")
+            st.caption(f"{note['visit_date']}, {note['note_type'].lower()} by {note['author']}")
             st.markdown(note["body"])
         else:
-            st.caption("Save the note to preview it.")
+            st.caption("Save the note to read it here.")
 
     st.markdown("")
     with st.expander(f"Search {p['name'].split()[0]}'s notes", expanded=False):
@@ -94,10 +98,12 @@ with left:
 
 # ================================================================ copilot
 with right:
-    st.markdown("#### Copilot")
+    st.markdown("### Copilot")
+    st.caption("Ask about this patient, the literature or open trials. Answers cite their sources.")
     if not config.ANTHROPIC_API_KEY:
-        st.info("The copilot needs `ANTHROPIC_API_KEY`. Add it to the app's Secrets (or `.env` locally) and reboot. "
-                "Search works without it.")
+        with st.container(border=True):
+            st.markdown("**The copilot is off.** Add `ANTHROPIC_API_KEY` to the app's Secrets (or `.env` locally) "
+                        "and reboot to turn it on. Search and notes work without it.")
         st.stop()
 
     import copilot
