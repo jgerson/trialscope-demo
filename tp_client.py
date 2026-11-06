@@ -131,6 +131,7 @@ def upsert(namespace: str, rows: list[dict], kind: str | None = None, attempts: 
 # ---------------------------------------------------------------- search
 
 MODES = ("hybrid", "vector", "bm25")
+RRF_K = 60  # reciprocal rank fusion constant, turbopuffer's default
 
 
 def search_namespace(namespace: str, query: str, mode: str = "hybrid", filters=None, top_k: int = config.TOP_K) -> dict:
@@ -143,30 +144,53 @@ def search_namespace(namespace: str, query: str, mode: str = "hybrid", filters=N
     vec = {**base, "rank_by": ("text", "ANN", ("Embed", query))}
     txt = {**base, "rank_by": ("text", "BM25", query)}
 
+    request = {"vector": vec, "bm25": txt, "hybrid": {"queries": [vec, txt]}}[mode]
+
     t0 = time.perf_counter()
     try:
         if mode == "vector":
             res = ns(namespace).query(**vec)
-            rows, perf = res.rows or [], res.performance
+            lists, perf = {"vector": res.rows or []}, res.performance
         elif mode == "bm25":
             res = ns(namespace).query(**txt)
-            rows, perf = res.rows or [], res.performance
+            lists, perf = {"bm25": res.rows or []}, res.performance
         else:
-            res = ns(namespace).multi_query(queries=[vec, txt], rerank_by=("RRF",), limit=top_k)
-            rows = res.results[0].rows or [] if res.results else []
+            # One request, two ranked lists back. They are fused below with the same RRF formula
+            # turbopuffer's rerank_by=("RRF",) uses (k=60), keeping each list's rank for the explainer.
+            res = ns(namespace).multi_query(queries=[vec, txt])
+            results = res.results or []
+            lists = {"vector": results[0].rows or [] if results else [],
+                     "bm25": results[1].rows or [] if len(results) > 1 else []}
             perf = res.performance
     except turbopuffer.NotFoundError:
-        return {"namespace": namespace, "kind": kind, "hits": [], "ms": 0, "server_ms": 0, "embedding_ms": 0}
+        return {"namespace": namespace, "kind": kind, "hits": [], "ms": 0, "server_ms": 0, "embedding_ms": 0,
+                "mode": mode, "filters": filters, "request": request, "perf": {}}
     ms = (time.perf_counter() - t0) * 1000
 
+    # Collect each document's rank and score in every list it appeared in.
+    docs: dict[str, dict] = {}
+    for list_name, rows in lists.items():
+        for rank, r in enumerate(rows, 1):
+            d = _row_dict(r)
+            score = d.pop("$dist", None)
+            doc = docs.setdefault(d["id"], {**d, "_explain": {}})
+            doc["_explain"][list_name] = {"rank": rank, "score": score, "of": len(rows)}
+
+    for doc in docs.values():
+        ex = doc["_explain"]
+        doc["_fused"] = sum(1.0 / (RRF_K + v["rank"]) for v in ex.values())
+    ordered = sorted(docs.values(), key=lambda d: d["_fused"], reverse=True)[:top_k]
+
     hits = []
-    for rank, r in enumerate(rows, 1):
-        d = _row_dict(r)
+    for rank, d in enumerate(ordered, 1):
         d["_rank"] = rank
-        d["_score"] = d.pop("$dist", None) if "$dist" in d else d.pop("$score", None)
+        d["_score"] = d["_fused"] if mode == "hybrid" else next(iter(d["_explain"].values()))["score"]
         d["_namespace"] = namespace
         d["_kind"] = kind
         hits.append(d)
+
+    perf_fields = ("server_total_ms", "query_execution_ms", "embedding_ms", "embedding_tokens", "cache_temperature",
+                   "cache_hit_ratio", "approx_namespace_size", "exhaustive_search_count")
     return {
         "namespace": namespace,
         "kind": kind,
@@ -174,11 +198,15 @@ def search_namespace(namespace: str, query: str, mode: str = "hybrid", filters=N
         "ms": round(ms, 1),
         "server_ms": getattr(perf, "server_total_ms", None),
         "embedding_ms": getattr(perf, "embedding_ms", None),
+        "mode": mode,
+        "filters": filters,
+        "request": request,
+        "perf": {f: getattr(perf, f, None) for f in perf_fields},
     }
 
 
 def search_many(targets: list[tuple[str, object]], query: str, mode: str = "hybrid", top_k: int = config.TOP_K,
-                rrf_k: int = 60) -> dict:
+                rrf_k: int = RRF_K) -> dict:
     """Query several namespaces in parallel and merge with reciprocal rank fusion.
 
     targets: list of (namespace, filters_or_None).
@@ -193,8 +221,11 @@ def search_many(targets: list[tuple[str, object]], query: str, mode: str = "hybr
         for h in p["hits"]:
             h["_rrf"] = 1.0 / (rrf_k + h["_rank"])
             merged.append(h)
+    # Ties (same rank in different namespaces) keep the order of the targets list.
     merged.sort(key=lambda h: h["_rrf"], reverse=True)
-    return {"hits": merged, "parts": parts, "wall_ms": round(wall_ms, 1)}
+    for pos, h in enumerate(merged, 1):
+        h["_overall"] = pos
+    return {"hits": merged, "parts": parts, "wall_ms": round(wall_ms, 1), "rrf_k": rrf_k}
 
 
 # ---------------------------------------------------------------- filters

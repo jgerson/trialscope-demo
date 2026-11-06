@@ -47,8 +47,9 @@ with rcol:
         st.markdown("#### Search notes, PubMed and trials together")
         st.caption(
             "Exact terms such as drug names, genes and NCT ids are matched with BM25; questions in plain language are "
-            "matched with vectors. Hybrid runs both inside turbopuffer and fuses them with RRF. With scope All, each "
-            "namespace is queried in parallel and the lists are merged by rank.")
+            "matched with vectors. Hybrid sends both in one turbopuffer request and fuses the two lists with RRF. "
+            "With scope All, each namespace is queried in parallel and the lists are merged by rank. "
+            "Click Explain under any result to see how it got there.")
         if p:
             st.caption(f"Patient scope uses {p['name']}'s namespace `{config.patient_ns(p['id'])}`.")
         st.stop()
@@ -57,9 +58,14 @@ with rcol:
     st.markdown(f"**{len(res['hits'])} results** from {len(targets)} namespace{'s' if len(targets) > 1 else ''} · "
                 f"{mode}{' · merged with reciprocal rank fusion' if len(targets) > 1 else ''}")
     ui.latency_chips(res["parts"], res["wall_ms"])
+    ui.explain_search(res, query, mode)
 
+    parts = {p["namespace"]: p for p in res["parts"]}
+    multi = len(res["parts"]) > 1
     for h in res["hits"]:
         ui.result_card(h, query)
+        with st.popover("Explain this result", icon=":material/info:"):
+            st.markdown(ui.explain_hit(h, query, parts[h["_namespace"]], res["rrf_k"], multi))
 
     if config.ANTHROPIC_API_KEY and res["hits"]:
         if st.button("Ask the copilot to summarize these results", type="primary"):

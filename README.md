@@ -57,7 +57,12 @@ Text is embedded by turbopuffer itself (native embedding, `voyage/voyage-4-lite`
 - **One `text` attribute per document** is both BM25-indexed and natively embedded.
 - **Vector**: `rank_by ("text", "ANN", ("Embed", query))`.
 - **BM25**: `rank_by ("text", "BM25", query)`.
-- **Hybrid**: one `multi_query` with both, fused server-side with `rerank_by ("RRF",)`.
+- **Hybrid**: one `multi_query` request with both subqueries. The app fuses the two ranked lists with
+  reciprocal rank fusion (k=60, the same formula as turbopuffer's `rerank_by ("RRF",)`) so it can show
+  each result's vector rank and BM25 rank.
+- **Explain**: every result has an *Explain this result* button showing its vector distance, BM25 score,
+  query words found, the RRF arithmetic and its overall position. *How turbopuffer ran this search*
+  shows the exact requests sent plus server time, embedding time and cache state per namespace.
 - **Scope "All"**: each namespace is queried in parallel and the lists are merged client-side with
   reciprocal rank fusion. Per-namespace client and server latency is shown on the results page.
 - **Filters**: trial status, phase, country, patient age range and sex; PubMed year and topic.
