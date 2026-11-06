@@ -1,0 +1,77 @@
+# TrialScope
+
+A Streamlit demo where a doctor keeps notes per patient and searches those notes, PubMed and
+ClinicalTrials.gov from one place, with a Claude copilot that answers with citations.
+Everything is stored and searched in turbopuffer. All patients are synthetic.
+
+## Deploy to Streamlit Community Cloud
+
+1. Push this folder to a GitHub repo (public or private).
+2. At [share.streamlit.io](https://share.streamlit.io), choose **Create app**, pick the repo and branch,
+   and set **Main file path** to `app.py`. Under **Advanced settings**, choose Python 3.12 or newer.
+3. In **Advanced settings → Secrets**, paste the contents of `.streamlit/secrets.toml.example`
+   with your real `TURBOPUFFER_API_KEY` filled in. Add `ANTHROPIC_API_KEY` whenever you want the
+   copilot; secrets can be edited later and the app picks them up on reboot.
+4. Deploy. The data already lives in turbopuffer, so the app is usable on first load.
+
+A public app lets any visitor save notes into your patient namespaces. Either set the app to
+private in its sharing settings, or add `READ_ONLY = "true"` to the secrets.
+
+## Run it locally
+
+```bash
+pip install -r requirements.txt
+cp .streamlit/secrets.toml.example .streamlit/secrets.toml   # or: cp .env.example .env
+streamlit run app.py
+```
+
+Settings are read from Streamlit secrets, then environment variables, then `.env`.
+The copilot is optional: without `ANTHROPIC_API_KEY` the app runs search-only.
+`COPILOT_MODEL` overrides the model (default `claude-sonnet-5-5`).
+
+## Data (already loaded in aws-us-east-1)
+
+| Namespace | Contents | Loaded by |
+| --- | --- | --- |
+| `ts-trials` | 50,000 interventional studies, most recently updated first | `python ingest/trials.py --limit 50000` |
+| `ts-pubmed` | ~71,000 oncology and cardiology abstracts, 2015 onward | `python ingest/pubmed.py --limit 100000` |
+| `ts-patients` | Directory of 100 synthetic patients | `python ingest/patients.py --count 100` |
+| `ts-patient-0001` … `0100` | One namespace per patient with their visit notes | same script |
+
+Ingest scripts cache downloads in `data/` and skip batches already loaded, so reruns are cheap.
+Text is embedded by turbopuffer itself (native embedding, `voyage/voyage-4-lite`), on write and at query time.
+
+## How search works
+
+- **One `text` attribute per document** is both BM25-indexed and natively embedded.
+- **Vector**: `rank_by ("text", "ANN", ("Embed", query))`.
+- **BM25**: `rank_by ("text", "BM25", query)`.
+- **Hybrid**: one `multi_query` with both, fused server-side with `rerank_by ("RRF",)`.
+- **Scope "All"**: each namespace is queried in parallel and the lists are merged client-side with
+  reciprocal rank fusion. Per-namespace client and server latency is shown on the results page.
+- **Filters**: trial status, phase, country, patient age range and sex; PubMed year and topic.
+- **Freshness**: saving a note upserts to the patient's namespace; the app times how long until a
+  strongly consistent query returns it (typically tens of milliseconds).
+
+## Files
+
+| File | Job |
+| --- | --- |
+| `app.py` | Streamlit shell: patient picker, navigation |
+| `views/workspace.py` | Note editor per patient + copilot panel |
+| `views/search.py` | Scoped search with mode toggle, filters, latency chips |
+| `tp_client.py` | turbopuffer wrapper: schemas, upsert, search modes, multi-namespace RRF, filters |
+| `notes.py` | Save/delete notes and measure time to searchable |
+| `copilot.py` | Claude tool-use loop (`search`, `read_patient_notes`) and citations |
+| `ui.py` | Styling and result cards |
+| `ingest/` | Trials, PubMed and synthetic patient loaders |
+| `config.py` | Region, namespaces, models |
+
+## Demo script
+
+1. Patient workspace → Dana Whitfield. Show the cycle-4 note asking about trials.
+2. Edit the note, save, and point at "searchable … ms later".
+3. Search → scope All → `trastuzumab cardiotoxicity monitoring`. Flip hybrid / vector / bm25 and
+   compare; show the three namespaces' latencies.
+4. Trials scope with Status = Recruiting, Country = United States, "Match patient age and sex".
+5. Copilot (with a key): "Is there a recruiting trial Dana might qualify for after surgery?"
