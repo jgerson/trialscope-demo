@@ -33,7 +33,7 @@ The copilot is optional: without `ANTHROPIC_API_KEY` the app runs search-only.
 
 | Namespace | Contents | Loaded by |
 | --- | --- | --- |
-| `ts-trials` | 50,000 interventional studies, most recently updated first | `python ingest/trials.py --limit 50000` |
+| `ts-trials` | ~49,400 interventional studies, most recently updated first | `python ingest/trials.py --limit 50000` |
 | `ts-pubmed` | ~71,000 oncology and cardiology abstracts, 2015 onward | `python ingest/pubmed.py --limit 100000` |
 | `ts-patients` | Directory of 100 synthetic patients | `python ingest/patients.py --count 100` |
 | `ts-patient-0001` … `0100` | One namespace per patient with their visit notes | same script |
