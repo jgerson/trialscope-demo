@@ -39,7 +39,7 @@ def load_batches(namespace: str, rows: list[dict], kind: str, batch_size: int = 
     t0 = time.time()
     loaded = len(rows) - sum(len(b) for _, b in todo)
     with ThreadPoolExecutor(max_workers=workers) as pool:
-        futs = {pool.submit(tp_client.upsert, namespace, b, kind): (i, len(b)) for i, b in todo}
+        futs = {pool.submit(tp_client.upsert, namespace, b, kind, 30): (i, len(b)) for i, b in todo}
         for n, fut in enumerate(as_completed(futs), 1):
             i, size = futs[fut]
             fut.result()
