@@ -39,6 +39,7 @@ DISTANCE_METRIC = "cosine_distance"
 NS_PREFIX = "ts-"
 NS_TRIALS = NS_PREFIX + "trials"
 NS_PUBMED = NS_PREFIX + "pubmed"
+NS_PMC = NS_PREFIX + "pmc"  # full-text article chunks (PMC Open Access)
 NS_PATIENTS = NS_PREFIX + "patients"  # patient directory (one row per patient)
 
 
