@@ -4,6 +4,11 @@ A Streamlit demo where a doctor keeps notes per patient and searches those notes
 ClinicalTrials.gov from one place, with a Claude copilot that answers with citations.
 Everything is stored and searched in turbopuffer. All patients are synthetic.
 
+This repo holds the Streamlit app and the scripts that load every turbopuffer namespace. The web version,
+with full-text article search, trial eligibility pages and Clerk sign-in, is
+[jgerson/trialscope-vercel](https://github.com/jgerson/trialscope-vercel), live at
+[trialscope.space](https://www.trialscope.space). Both read the same namespaces.
+
 > **Personal learning project.** I built TrialScope on my own time to learn turbopuffer
 > (hybrid search, native embedding, filtering and many-namespace multi-tenancy) and how an
 > AI copilot can sit on top of a search layer. It is not affiliated with, sponsored by or
@@ -51,7 +56,7 @@ The copilot is optional: without `ANTHROPIC_API_KEY` the app runs search-only.
 | --- | --- | --- |
 | `ts-trials` | ~49,400 interventional studies, most recently updated first | `python ingest/trials.py --limit 50000` |
 | `ts-pubmed` | ~71,000 oncology and cardiology abstracts, 2015 onward | `python ingest/pubmed.py --limit 100000` |
-| `ts-pmc` | 22,664 full-text passages from 2,000 open-access PMC articles (CC BY and similar), 2024 onward | `python ingest/pmc.py select`, `fetch`, `load` |
+| `ts-pmc` | 22,664 full-text passages from 2,000 open-access PMC articles (CC BY and similar), 2024 onward. Searched by the web app only | `python ingest/pmc.py select`, `fetch`, `load` |
 | `ts-patients` | Directory of 100 synthetic patients | `python ingest/patients.py --count 100` |
 | `ts-patient-0001` … `0100` | One namespace per patient with their visit notes | same script |
 
@@ -67,13 +72,30 @@ Text is embedded by turbopuffer itself (native embedding, `voyage/voyage-4-lite`
   reciprocal rank fusion (k=60, the same formula as turbopuffer's `rerank_by ("RRF",)`) so it can show
   each result's vector rank and BM25 rank.
 - **Explain**: every result has an *Explain* button that opens a side drawer showing its vector distance, BM25 score,
-  query words found, the RRF arithmetic and its overall position. the drawer's default view
+  query words found, the RRF arithmetic and its overall position. With no result selected, the drawer
   shows the exact requests sent plus server time, embedding time and cache state per namespace.
 - **Scope "All"**: each namespace is queried in parallel and the lists are merged client-side with
   reciprocal rank fusion. Per-namespace client and server latency is shown on the results page.
 - **Filters**: trial status, phase, country, patient age range and sex; PubMed year and topic.
 - **Freshness**: saving a note upserts to the patient's namespace; the app times how long until a
   strongly consistent query returns it (typically tens of milliseconds).
+
+## Full-text articles (loaded here, searched in the web app)
+
+`ingest/pmc.py` builds `ts-pmc` from the PubMed Central Open Access subset:
+
+1. **select**: finds which of our abstracts have a PMC article (E-utilities), then keeps articles that are open
+   access, not retracted, and licensed for commercial reuse (CC0, CC BY, CC BY-SA, CC BY-ND), newest first,
+   1,000 per topic.
+2. **fetch**: downloads each article's XML from PMC's AWS bucket into `data/pmc_xml/` (not committed).
+3. **load**: splits each article by section into passages of about 450–600 words that never cross a top-level
+   section and overlap by a sentence or two, drops references, figures, tables and end matter, normalizes headings
+   ("1. INTRODUCTION" → "Introduction"), and upserts one row per passage. Each passage's searchable text starts
+   with the article title and section name.
+
+`python ingest/pmc.py preview PMC6000000` prints one article's passages. `python ingest/eval_fulltext.py` runs
+10 questions whose answers sit only in an article's body: abstracts show the answer 0 times out of 10, the best
+full-text passage 7, and an article's top three passages 10.
 
 ## Files
 
@@ -87,7 +109,7 @@ Text is embedded by turbopuffer itself (native embedding, `voyage/voyage-4-lite`
 | `notes.py` | Save/delete notes and measure time to searchable |
 | `copilot.py` | Claude tool-use loop (`search`, `read_patient_notes`) and citations |
 | `ui.py` | Styling and result cards |
-| `ingest/` | Trials, PubMed and synthetic patient loaders |
+| `ingest/` | Trials, PubMed, full-text (PMC) and synthetic patient loaders; `eval_fulltext.py` |
 | `config.py` | Region, namespaces, models |
 
 ## Demo script
@@ -101,8 +123,9 @@ Text is embedded by turbopuffer itself (native embedding, `voyage/voyage-4-lite`
 
 ## Data sources
 
-- Full text: [PubMed Central Open Access subset](https://pmc.ncbi.nlm.nih.gov/tools/textmining/) via the [PMC cloud service](https://pmc.ncbi.nlm.nih.gov/tools/cloud); only articles licensed for commercial reuse. `python ingest/eval_fulltext.py` compares full text with abstracts on 10 questions.
-
 - Clinical trials: [ClinicalTrials.gov API v2](https://clinicaltrials.gov/data-api/api), U.S. National Library of Medicine.
 - Abstracts: [PubMed via NCBI E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK25501/), U.S. National Library of Medicine.
+- Full text: [PubMed Central Open Access subset](https://pmc.ncbi.nlm.nih.gov/tools/textmining/), via the
+  [PMC cloud service](https://pmc.ncbi.nlm.nih.gov/tools/cloud). Only articles licensed for commercial reuse; each
+  passage stores its license.
 - Patients and notes: synthetic, generated by `ingest/patients.py`. Any resemblance to real people is coincidental.
