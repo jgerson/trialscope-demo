@@ -1,0 +1,544 @@
+[
+ {
+  "id": "PMID39709655",
+  "text": "Efficacy and safety of antibody-drug conjugates in pretreated HER2-low metastatic breast cancer: A systematic review and network meta-analysis.\nIntroduction: Antibody-drug conjugates (ADCs) trastuzumab-deruxtecan (T-DXd) and sacituzumab-govitecan (SG) provided significant progression-free survival (PFS) and overall survival (OS) improvements over chemotherapy (CT) in pretreated hormone receptor-positive (HR+) and triple-negative (TN)/HER2-low metastatic breast cancer (MBC). However, no direct comparison between the two exists, nor with the more recent datopotamab-deruxtecan (Dato-DXd).\nMethods: We conducted a network meta-analysis (NMA) to compare efficacy and safety of T-DXd and SG in CT-pretreated HR+ and TN/HER2-low MBC and assess their benefit over standard CT, exploring also a comparison with Dato-DXd. Hazard ratios (HRs) with 95 % confidence intervals (CI) were calculated for PFS/OS. P-score was used for treatment ranking.\nResults: Three RCTs (956 patients) were included in the primary analysis and 5 (1,445) in the exploratory NMA with Dato-DXd. In HR+/HER2-low, T-DXd showed no significant difference in PFS and OS when compared to SG. Similarly, in TN/HER2-low, PFS and OS did not differ significantly between the two ADCs. The P-score analysis favored T-DXd over SG in HR+/HER2-low in PFS (0.90 vs. 0.60) and OS (0.89 vs. 0.60). SG was favored over T-DXd in OS in TN/HER2-low (0.80 vs. 0.69). Similar results were obtained for HR+ MBC when including Dato-Dxd, which showed the worst performance, while T-DXd was the only ADC significantly outperforming CT in OS. The ADCs showed significantly better PFS and OS than CT in HR+/HER2-low and TN/HER2-low (all p < 0.001). SG had higher rates of neutropenia, diarrhea and alopecia vs. T-DXd, which showed more thrombocytopenia, fatigue and nausea. Pneumonitis and cardiotoxicity were typically T-DXd-related, and T-DXd showed more toxicity-related discontinuations.\nConclusions: Similar efficacy with T-DXd and SG in HER2-low MBC was observed, regardless of HR status. Safety profile, local drug-approval criteria and guidelines, patients' preferences and overall quality of evidence should ultimately guide therapeutic decision-making. Dato-DXd role remains uncertain.\nMeSH: Humans; Erb-b2 Receptor Tyrosine Kinases; Female; Immunoconjugates; Breast Neoplasms; Antibodies, Monoclonal, Humanized; Trastuzumab; Camptothecin; Randomized Controlled Trials as Topic; Antineoplastic Combined Chemotherapy Protocols",
+  "title": "Efficacy and safety of antibody-drug conjugates in pretreated HER2-low metastatic breast cancer: A systematic review and network meta-analysis.",
+  "abstract": "Introduction: Antibody-drug conjugates (ADCs) trastuzumab-deruxtecan (T-DXd) and sacituzumab-govitecan (SG) provided significant progression-free survival (PFS) and overall survival (OS) improvements over chemotherapy (CT) in pretreated hormone receptor-positive (HR+) and triple-negative (TN)/HER2-low metastatic breast cancer (MBC). However, no direct comparison between the two exists, nor with the more recent datopotamab-deruxtecan (Dato-DXd).\nMethods: We conducted a network meta-analysis (NMA) to compare efficacy and safety of T-DXd and SG in CT-pretreated HR+ and TN/HER2-low MBC and assess their benefit over standard CT, exploring also a comparison with Dato-DXd. Hazard ratios (HRs) with 95 % confidence intervals (CI) were calculated for PFS/OS. P-score was used for treatment ranking.\nResults: Three RCTs (956 patients) were included in the primary analysis and 5 (1,445) in the exploratory NMA with Dato-DXd. In HR+/HER2-low, T-DXd showed no significant difference in PFS and OS when compared to SG. Similarly, in TN/HER2-low, PFS and OS did not differ significantly between the two ADCs. The P-score analysis favored T-DXd over SG in HR+/HER2-low in PFS (0.90 vs. 0.60) and OS (0.89 vs. 0.60). SG was favored over T-DXd in OS in TN/HER2-low (0.80 vs. 0.69). Similar results were obtained for HR+ MBC when including Dato-Dxd, which showed the worst performance, while T-DXd was the only ADC significantly outperforming CT in OS. The ADCs showed significantly better PFS and OS than CT in HR+/HER2-low and TN/HER2-low (all p < 0.001). SG had higher rates of neutropenia, diarrhea and alopecia vs. T-DXd, which showed more thrombocytopenia, fatigue and nausea. Pneumonitis and cardiotoxicity were typically T-DXd-related, and T-DXd showed more toxicity-related discontinuations.\nConclusions: Similar efficacy with T-DXd and SG in HER2-low MBC was observed, regardless of HR status. Safety profile, local drug-approval criteria and guidelines, patients' preferences and overall quality of",
+  "pmid": "39709655",
+  "journal": "Cancer treatment reviews",
+  "year": 2025,
+  "pub_types": [
+   "Journal Article",
+   "Systematic Review",
+   "Network Meta-Analysis"
+  ],
+  "mesh": [
+   "Humans",
+   "Erb-b2 Receptor Tyrosine Kinases",
+   "Female",
+   "Immunoconjugates",
+   "Breast Neoplasms",
+   "Antibodies, Monoclonal, Humanized",
+   "Trastuzumab",
+   "Camptothecin",
+   "Randomized Controlled Trials as Topic",
+   "Antineoplastic Combined Chemotherapy Protocols"
+  ],
+  "topic": "oncology"
+ },
+ {
+  "id": "PMID39133773",
+  "text": "Cardio-Oncology: A New Clinical Frontier and Novel Platform for Cardiovascular Investigation.\nIn the past 20 years, cardio-oncology has emerged as a new cardiovascular subspeciality. Older, non-specific chemotherapies (such as anthracyclines) and radiation had been well-described cardiotoxic agents, with anthracycline-associated heart failure initially extensively studied in the pediatric population by Drs. Steven Lipshultz (a cardiologist) and Stephen Sallan (an oncologist). The hope was that with the emergence of novel targeted therapies, these toxicities would be curtailed. However, more than 20 years ago, it became apparent that a percentage of patients exposed to trastuzumab, a targeted breast cancer therapy, can suffer from cardiomyopathy, necessitating imaging-based cardiac monitoring during treatment. Since then, multiple classes of novel targeted cancer therapies, ranging from biologics to small molecule inhibitors and spanning different classes, have been associated with acute and chronic cardiovascular and cardiometabolic complications. Chronic sequelae have become even more clinically relevant due to improved prognosis of cancer patients. In the United States, there are nearly 20,000,000 cancer survivors, representing 6% of the population. Cardiovascular disease, not cancer, is the leading cause of death among this population. Cardio-oncology represents a new clinical frontier given the ever-expanding oncologic therapies being introduced into practice. These therapies are associated with unique clinical cardiovascular and cardiometabolic syndromes. For example, a decade ago, few would have predicted the cardiovascular complications that from immune checkpoint inhibitors (ICI), immunotherapies that are currently approved in 50% of cancer patients. Inflammatory cardiomyopathies including myocarditis and pericarditis represent important new acute clinical challenges in practice. Chronic cardiovascular effects of ICI are yet to be defined. Given these clinical entities, new approaches are needed for diagnosis and treatment.\nMeSH: Humans; Cardiovascular Diseases; Medical Oncology; Cardiology; Neoplasms; Cardiotoxicity; Antineoplastic Agents; Cardio-Oncology",
+  "title": "Cardio-Oncology: A New Clinical Frontier and Novel Platform for Cardiovascular Investigation.",
+  "abstract": "In the past 20 years, cardio-oncology has emerged as a new cardiovascular subspeciality. Older, non-specific chemotherapies (such as anthracyclines) and radiation had been well-described cardiotoxic agents, with anthracycline-associated heart failure initially extensively studied in the pediatric population by Drs. Steven Lipshultz (a cardiologist) and Stephen Sallan (an oncologist). The hope was that with the emergence of novel targeted therapies, these toxicities would be curtailed. However, more than 20 years ago, it became apparent that a percentage of patients exposed to trastuzumab, a targeted breast cancer therapy, can suffer from cardiomyopathy, necessitating imaging-based cardiac monitoring during treatment. Since then, multiple classes of novel targeted cancer therapies, ranging from biologics to small molecule inhibitors and spanning different classes, have been associated with acute and chronic cardiovascular and cardiometabolic complications. Chronic sequelae have become even more clinically relevant due to improved prognosis of cancer patients. In the United States, there are nearly 20,000,000 cancer survivors, representing 6% of the population. Cardiovascular disease, not cancer, is the leading cause of death among this population. Cardio-oncology represents a new clinical frontier given the ever-expanding oncologic therapies being introduced into practice. These therapies are associated with unique clinical cardiovascular and cardiometabolic syndromes. For example, a decade ago, few would have predicted the cardiovascular complications that from immune checkpoint inhibitors (ICI), immunotherapies that are currently approved in 50% of cancer patients. Inflammatory cardiomyopathies including myocarditis and pericarditis represent important new acute clinical challenges in practice. Chronic cardiovascular effects of ICI are yet to be defined. Given these clinical entities, new approaches are needed for diagnosis and treatment.",
+  "pmid": "39133773",
+  "journal": "Circulation",
+  "year": 2024,
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [
+   "Humans",
+   "Cardiovascular Diseases",
+   "Medical Oncology",
+   "Cardiology",
+   "Neoplasms",
+   "Cardiotoxicity",
+   "Antineoplastic Agents",
+   "Cardio-Oncology"
+  ],
+  "topic": "oncology"
+ },
+ {
+  "id": "PMID30354459",
+  "text": "Fully Automated Echocardiogram Interpretation in Clinical Practice.\nBackground: Automated cardiac image interpretation has the potential to transform clinical practice in multiple ways, including enabling serial assessment of cardiac function by nonexperts in primary care and rural settings. We hypothesized that advances in computer vision could enable building a fully automated, scalable analysis pipeline for echocardiogram interpretation, including (1) view identification, (2) image segmentation, (3) quantification of structure and function, and (4) disease detection.\nMethods: Using 14 035 echocardiograms spanning a 10-year period, we trained and evaluated convolutional neural network models for multiple tasks, including automated identification of 23 viewpoints and segmentation of cardiac chambers across 5 common views. The segmentation output was used to quantify chamber volumes and left ventricular mass, determine ejection fraction, and facilitate automated determination of longitudinal strain through speckle tracking. Results were evaluated through comparison to manual segmentation and measurements from 8666 echocardiograms obtained during the routine clinical workflow. Finally, we developed models to detect 3 diseases: hypertrophic cardiomyopathy, cardiac amyloid, and pulmonary arterial hypertension.\nResults: Convolutional neural networks accurately identified views (eg, 96% for parasternal long axis), including flagging partially obscured cardiac chambers, and enabled the segmentation of individual cardiac chambers. The resulting cardiac structure measurements agreed with study report values (eg, median absolute deviations of 15% to 17% of observed values for left ventricular mass, left ventricular diastolic volume, and left atrial volume). In terms of function, we computed automated ejection fraction and longitudinal strain measurements (within 2 cohorts), which agreed with commercial software-derived values (for ejection fraction, median absolute deviation=9.7% of observed, N=6407 studies; for strain, median absolute deviation=7.5%, n=419, and 9.0%, n=110) and demonstrated applicability to serial monitoring of patients with breast cancer for trastuzumab cardiotoxicity. Overall, we found automated measurements to be comparable or superior to manual measurements across 11 internal consistency metrics (eg, the correlation of left atrial and ventricular volumes). Finally, we trained convolutional neural networks to detect hypertrophic cardiomyopathy, cardiac amyloidosis, and pulmonary arterial hypertension with C statistics of 0.93, 0.87, and 0.85, respectively.\nConclusions: Our pipeline lays the groundwork for using automated interpretation to support serial patient tracking and scalable analysis of millions of echocardiograms archived within healthcare systems.\nMeSH: Amyloidosis; Automation; Cardiomyopathy, Hypertrophic; Deep Learning; Echocardiography; Humans; Hypertension, Pulmonary; Image Interpretation, Computer-Assisted; Predictive Value of Tests; Reproducibility of Results; Stroke Volume; Ventricular Function, Left",
+  "title": "Fully Automated Echocardiogram Interpretation in Clinical Practice.",
+  "abstract": "Background: Automated cardiac image interpretation has the potential to transform clinical practice in multiple ways, including enabling serial assessment of cardiac function by nonexperts in primary care and rural settings. We hypothesized that advances in computer vision could enable building a fully automated, scalable analysis pipeline for echocardiogram interpretation, including (1) view identification, (2) image segmentation, (3) quantification of structure and function, and (4) disease detection.\nMethods: Using 14 035 echocardiograms spanning a 10-year period, we trained and evaluated convolutional neural network models for multiple tasks, including automated identification of 23 viewpoints and segmentation of cardiac chambers across 5 common views. The segmentation output was used to quantify chamber volumes and left ventricular mass, determine ejection fraction, and facilitate automated determination of longitudinal strain through speckle tracking. Results were evaluated through comparison to manual segmentation and measurements from 8666 echocardiograms obtained during the routine clinical workflow. Finally, we developed models to detect 3 diseases: hypertrophic cardiomyopathy, cardiac amyloid, and pulmonary arterial hypertension.\nResults: Convolutional neural networks accurately identified views (eg, 96% for parasternal long axis), including flagging partially obscured cardiac chambers, and enabled the segmentation of individual cardiac chambers. The resulting cardiac structure measurements agreed with study report values (eg, median absolute deviations of 15% to 17% of observed values for left ventricular mass, left ventricular diastolic volume, and left atrial volume). In terms of function, we computed automated ejection fraction and longitudinal strain measurements (within 2 cohorts), which agreed with commercial software-derived values (for ejection fraction, median absolute deviation=9.7% of observed, N=6407 studies; for strain, median absolute devia",
+  "pmid": "30354459",
+  "journal": "Circulation",
+  "year": 2018,
+  "pub_types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Validation Study"
+  ],
+  "mesh": [
+   "Amyloidosis",
+   "Automation",
+   "Cardiomyopathy, Hypertrophic",
+   "Deep Learning",
+   "Echocardiography",
+   "Humans",
+   "Hypertension, Pulmonary",
+   "Image Interpretation, Computer-Assisted",
+   "Predictive Value of Tests",
+   "Reproducibility of Results",
+   "Stroke Volume",
+   "Ventricular Function, Left"
+  ],
+  "topic": "oncology"
+ },
+ {
+  "id": "PMID33006257",
+  "text": "Role of serum biomarkers in cancer patients receiving cardiotoxic cancer therapies: a position statement from the Cardio-Oncology Study Group of the Heart Failure Association and the Cardio-Oncology Council of the European Society of Cardiology.\nSerum biomarkers are an important tool in the baseline risk assessment and diagnosis of cardiovascular disease in cancer patients receiving cardiotoxic cancer treatments. Increases in cardiac biomarkers including cardiac troponin and natriuretic peptides can be used to guide initiation of cardioprotective treatments for cancer patients during treatment and to monitor the response to cardioprotective treatments, and they also offer prognostic value. This position statement examines the role of cardiac biomarkers in the management of cancer patients. The Cardio-Oncology Study Group of the Heart Failure Association (HFA) of the European Society of Cardiology (ESC) in collaboration with the Cardio-Oncology Council of the ESC have evaluated the current evidence for the role of cardiovascular biomarkers in cancer patients before, during and after cardiotoxic cancer therapies. The characteristics of the main two biomarkers troponin and natriuretic peptides are discussed, the link to the mechanisms of cardiovascular toxicity, and the evidence for their clinical use in surveillance during and after anthracycline chemotherapy, trastuzumab and HER2-targeted therapies, vascular endothelial growth factor inhibitors, proteasome inhibitors, immune checkpoint inhibitors, cyclophosphamide and radiotherapy. Novel surveillance clinical pathways integrating cardiac biomarkers for cancer patients receiving anthracycline chemotherapy or trastuzumab biomarkers are presented and future direction in cardio-oncology biomarker research is discussed.\nMeSH: Antineoplastic Agents; Biomarkers, Tumor; Cardiotonic Agents; Cardiotoxicity; Heart Failure; Humans; Neoplasms",
+  "title": "Role of serum biomarkers in cancer patients receiving cardiotoxic cancer therapies: a position statement from the Cardio-Oncology Study Group of the Heart Failure Association and the Cardio-Oncology Council of the European Society of Cardiology.",
+  "abstract": "Serum biomarkers are an important tool in the baseline risk assessment and diagnosis of cardiovascular disease in cancer patients receiving cardiotoxic cancer treatments. Increases in cardiac biomarkers including cardiac troponin and natriuretic peptides can be used to guide initiation of cardioprotective treatments for cancer patients during treatment and to monitor the response to cardioprotective treatments, and they also offer prognostic value. This position statement examines the role of cardiac biomarkers in the management of cancer patients. The Cardio-Oncology Study Group of the Heart Failure Association (HFA) of the European Society of Cardiology (ESC) in collaboration with the Cardio-Oncology Council of the ESC have evaluated the current evidence for the role of cardiovascular biomarkers in cancer patients before, during and after cardiotoxic cancer therapies. The characteristics of the main two biomarkers troponin and natriuretic peptides are discussed, the link to the mechanisms of cardiovascular toxicity, and the evidence for their clinical use in surveillance during and after anthracycline chemotherapy, trastuzumab and HER2-targeted therapies, vascular endothelial growth factor inhibitors, proteasome inhibitors, immune checkpoint inhibitors, cyclophosphamide and radiotherapy. Novel surveillance clinical pathways integrating cardiac biomarkers for cancer patients receiving anthracycline chemotherapy or trastuzumab biomarkers are presented and future direction in cardio-oncology biomarker research is discussed.",
+  "pmid": "33006257",
+  "journal": "European journal of heart failure",
+  "year": 2020,
+  "pub_types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't",
+   "Consensus Statement"
+  ],
+  "mesh": [
+   "Antineoplastic Agents",
+   "Biomarkers, Tumor",
+   "Cardiotonic Agents",
+   "Cardiotoxicity",
+   "Heart Failure",
+   "Humans",
+   "Neoplasms"
+  ],
+  "topic": "oncology"
+ },
+ {
+  "id": "PMID33507815",
+  "text": "Neoadjuvant Chemotherapy, Endocrine Therapy, and Targeted Therapy for Breast Cancer: ASCO Guideline.\nPurpose: To develop guideline recommendations concerning optimal neoadjuvant therapy for breast cancer.\nMethods: ASCO convened an Expert Panel to conduct a systematic review of the literature on neoadjuvant therapy for breast cancer and provide recommended care options.\nResults: A total of 41 articles met eligibility criteria and form the evidentiary basis for the guideline recommendations.\nRecommendations: Patients undergoing neoadjuvant therapy should be managed by a multidisciplinary care team. Appropriate candidates for neoadjuvant therapy include patients with inflammatory breast cancer and those in whom residual disease may prompt a change in therapy. Neoadjuvant therapy can also be used to reduce the extent of local therapy or reduce delays in initiating therapy. Although tumor histology, grade, stage, and estrogen, progesterone, and human epidermal growth factor receptor 2 (HER2) expression should routinely be used to guide clinical decisions, there is insufficient evidence to support the use of other markers or genomic profiles. Patients with triple-negative breast cancer (TNBC) who have clinically node-positive and/or at least T1c disease should be offered an anthracycline- and taxane-containing regimen; those with cT1a or cT1bN0 TNBC should not routinely be offered neoadjuvant therapy. Carboplatin may be offered to patients with TNBC to increase pathologic complete response. There is currently insufficient evidence to support adding immune checkpoint inhibitors to standard chemotherapy. In patients with hormone receptor (HR)-positive (HR-positive), HER2-negative tumors, neoadjuvant chemotherapy can be used when a treatment decision can be made without surgical information. Among postmenopausal patients with HR-positive, HER2-negative disease, hormone therapy can be used to downstage disease. Patients with node-positive or high-risk node-negative, HER2-positive disease should be offered neoadjuvant therapy in combination with anti-HER2-positive therapy. Patients with T1aN0 and T1bN0, HER2-positive disease should not be routinely offered neoadjuvant therapy.Additional information is available at www.asco.org/breast-cancer-guidelines.\nMeSH: Antineoplastic Agents, Hormonal; Biomarkers, Tumor; Breast Neoplasms; Female; Humans; Molecular Targeted Therapy; Neoadjuvant Therapy; Practice Guidelines as Topic; Prognosis; Erb-b2 Receptor Tyrosine Kinases; Systematic Reviews as Topic",
+  "title": "Neoadjuvant Chemotherapy, Endocrine Therapy, and Targeted Therapy for Breast Cancer: ASCO Guideline.",
+  "abstract": "Purpose: To develop guideline recommendations concerning optimal neoadjuvant therapy for breast cancer.\nMethods: ASCO convened an Expert Panel to conduct a systematic review of the literature on neoadjuvant therapy for breast cancer and provide recommended care options.\nResults: A total of 41 articles met eligibility criteria and form the evidentiary basis for the guideline recommendations.\nRecommendations: Patients undergoing neoadjuvant therapy should be managed by a multidisciplinary care team. Appropriate candidates for neoadjuvant therapy include patients with inflammatory breast cancer and those in whom residual disease may prompt a change in therapy. Neoadjuvant therapy can also be used to reduce the extent of local therapy or reduce delays in initiating therapy. Although tumor histology, grade, stage, and estrogen, progesterone, and human epidermal growth factor receptor 2 (HER2) expression should routinely be used to guide clinical decisions, there is insufficient evidence to support the use of other markers or genomic profiles. Patients with triple-negative breast cancer (TNBC) who have clinically node-positive and/or at least T1c disease should be offered an anthracycline- and taxane-containing regimen; those with cT1a or cT1bN0 TNBC should not routinely be offered neoadjuvant therapy. Carboplatin may be offered to patients with TNBC to increase pathologic complete response. There is currently insufficient evidence to support adding immune checkpoint inhibitors to standard chemotherapy. In patients with hormone receptor (HR)-positive (HR-positive), HER2-negative tumors, neoadjuvant chemotherapy can be used when a treatment decision can be made without surgical information. Among postmenopausal patients with HR-positive, HER2-negative disease, hormone therapy can be used to downstage disease. Patients with node-positive or high-risk node-negative, HER2-positive disease should be offered neoadjuvant therapy in combination with anti-HER2-positive therapy. Pa",
+  "pmid": "33507815",
+  "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+  "year": 2021,
+  "pub_types": [
+   "Journal Article"
+  ],
+  "mesh": [
+   "Antineoplastic Agents, Hormonal",
+   "Biomarkers, Tumor",
+   "Breast Neoplasms",
+   "Female",
+   "Humans",
+   "Molecular Targeted Therapy",
+   "Neoadjuvant Therapy",
+   "Practice Guidelines as Topic",
+   "Prognosis",
+   "Erb-b2 Receptor Tyrosine Kinases",
+   "Systematic Reviews as Topic"
+  ],
+  "topic": "oncology"
+ },
+ {
+  "id": "PMID38141462",
+  "text": "Neoadjuvant therapy in hormone Receptor-Positive/HER2-Negative breast cancer.\nNeoadjuvant therapy is commonly used in patients with locally advanced or inoperable breast cancer (BC). Neoadjuvant chemotherapy (NACT) represents an established treatment modality able to downstage tumours, facilitate breast-conserving surgery, yet also achieve considerable pathologic complete response (pCR) rates in HER2-positive and triple-negative BC. For patients with HR+/HER2- BC, the choice between NACT and neoadjuvant endocrine therapy (NET) is still based on clinical and pathological features and not guided by biomarkers of defined clinical utility, differently from the adjuvant setting where gene-expression signatures have been widely adopted to drive decision-making. In this review, we summarize the evidence supporting the choice of NACT vs NET in HR+/HER2- BC, discussing the issues surrounding clinical trial design and proper selection of patients for every treatment. It is time to question the binary paradigm of responder vs non-responders as well as the \"one size fits all\" approach in luminal BC, supporting the utilization of continuous endpoints and the adoption of tissue and plasma-based biomarkers at multiple timepoints. This will eventually unleash the full potential of neoadjuvant therapy which is to modulate patient treatment based on treatment sensitivity and surgical outcomes. We also reviewed the current landscape of neoadjuvant studies for HR+/HER2- BC, focusing on antibody-drug conjugates (ADCs) and immunotherapy combinations. Finally, we proposed a roadmap for future neoadjuvant approaches in HR+/HER2- BC, which should be based on a staggered biomarker-driven treatment selection aiming at impacting long-term relevant endpoints.\nMeSH: Female; Humans; Antineoplastic Combined Chemotherapy Protocols; Breast Neoplasms; Chemotherapy, Adjuvant; Mastectomy, Segmental; Neoadjuvant Therapy; Patient Selection; Erb-b2 Receptor Tyrosine Kinases; Triple Negative Breast Neoplasms",
+  "title": "Neoadjuvant therapy in hormone Receptor-Positive/HER2-Negative breast cancer.",
+  "abstract": "Neoadjuvant therapy is commonly used in patients with locally advanced or inoperable breast cancer (BC). Neoadjuvant chemotherapy (NACT) represents an established treatment modality able to downstage tumours, facilitate breast-conserving surgery, yet also achieve considerable pathologic complete response (pCR) rates in HER2-positive and triple-negative BC. For patients with HR+/HER2- BC, the choice between NACT and neoadjuvant endocrine therapy (NET) is still based on clinical and pathological features and not guided by biomarkers of defined clinical utility, differently from the adjuvant setting where gene-expression signatures have been widely adopted to drive decision-making. In this review, we summarize the evidence supporting the choice of NACT vs NET in HR+/HER2- BC, discussing the issues surrounding clinical trial design and proper selection of patients for every treatment. It is time to question the binary paradigm of responder vs non-responders as well as the \"one size fits all\" approach in luminal BC, supporting the utilization of continuous endpoints and the adoption of tissue and plasma-based biomarkers at multiple timepoints. This will eventually unleash the full potential of neoadjuvant therapy which is to modulate patient treatment based on treatment sensitivity and surgical outcomes. We also reviewed the current landscape of neoadjuvant studies for HR+/HER2- BC, focusing on antibody-drug conjugates (ADCs) and immunotherapy combinations. Finally, we proposed a roadmap for future neoadjuvant approaches in HR+/HER2- BC, which should be based on a staggered biomarker-driven treatment selection aiming at impacting long-term relevant endpoints.",
+  "pmid": "38141462",
+  "journal": "Cancer treatment reviews",
+  "year": 2024,
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [
+   "Female",
+   "Humans",
+   "Antineoplastic Combined Chemotherapy Protocols",
+   "Breast Neoplasms",
+   "Chemotherapy, Adjuvant",
+   "Mastectomy, Segmental",
+   "Neoadjuvant Therapy",
+   "Patient Selection",
+   "Erb-b2 Receptor Tyrosine Kinases",
+   "Triple Negative Breast Neoplasms"
+  ],
+  "topic": "oncology"
+ },
+ {
+  "id": "PMID40152443",
+  "text": "Selective Elimination of Breast Surgery for Invasive Breast Cancer: A Nonrandomized Clinical Trial.\nImportance: Neoadjuvant systemic therapy (NST) has been associated with pathologic complete response (pCR) in up to 60% of breast cancers (BCs). The findings of this trial question the necessity of surgery.\nObjective: To report preplanned 5-year efficacy outcomes evaluating radiotherapy alone without breast surgery in patients selected with image-guided vacuum assisted biopsy (VAB).\nDesign, Setting, And Participants: This single-arm, prospective, phase 2 nonrandomized clinical trial was conducted at 7 US medical centers and included women 40 years or older with cT1-2N0-1M0 ERBB2-positive (formerly HER2-positive) or triple-negative invasive BC who showed residual breast lesions after NST of less than 2 cm on imaging. Enrollment was from March 6, 2017, to November 9, 2021. Data analysis was from October to December 2024.\nIntervention: Image-guided VAB of the tumor bed (9G with a minimum of 12 cores) was performed after standard NST. Patients with clinically node-negative disease at diagnosis and no residual cancer in the breast on post-NST VAB underwent whole-breast radiotherapy with a boost without breast or axillary surgery. Patients with initial documented nodal disease and a breast pCR on VAB underwent targeted axillary dissection, while those with residual cancer when undergoing VAB had standard breast and axillary surgery. Patients were monitored with physical examinations and mammography every 6 months.\nMain Outcome Measures: The primary outcome was ipsilateral breast tumor recurrence.\nResults: Fifty patients (median [IQR] age, 62 [55-77] years) were enrolled and underwent post-NST VAB. Twenty-nine (58%) and 21 (42%) patients had ERBB2-positive and triple-negative invasive BC, respectively. Breast pCR on VAB was identified in 31 patients (62%; 95% CI, 47.2%-75.34%), and axillary pCR was identified among all 8 patients with initial nodal metastases and breast pCR on VAB who underwent targeted axillary dissection. At a median follow-up of 55.4 (IQR, 44.0-63.5) months, the ipsilateral breast tumor recurrence rate was 0%, and disease-free and overall survival rates were 100% for patients without breast surgery.\nConclusions And Relevance: The results of this nonrandomized clinical trial that reported preplanned 5-year outcomes suggest that omission of breast surgery in select patients after NST may be feasible, with no recurrences seen. More confirmatory studies are necessary before this new approach alters surgical practice.\nTrial Registration: ClinicalTrials.gov Identifier: NCT02945579.\nMeSH: Humans; Female; Middle Aged; Breast Neoplasms; Aged; Adult; Neoadjuvant Therapy; Prospective Studies; Image-Guided Biopsy; Neoplasm, Residual; Neoplasm Invasiveness; Mastectomy; Treatment Outcome",
+  "title": "Selective Elimination of Breast Surgery for Invasive Breast Cancer: A Nonrandomized Clinical Trial.",
+  "abstract": "Importance: Neoadjuvant systemic therapy (NST) has been associated with pathologic complete response (pCR) in up to 60% of breast cancers (BCs). The findings of this trial question the necessity of surgery.\nObjective: To report preplanned 5-year efficacy outcomes evaluating radiotherapy alone without breast surgery in patients selected with image-guided vacuum assisted biopsy (VAB).\nDesign, Setting, And Participants: This single-arm, prospective, phase 2 nonrandomized clinical trial was conducted at 7 US medical centers and included women 40 years or older with cT1-2N0-1M0 ERBB2-positive (formerly HER2-positive) or triple-negative invasive BC who showed residual breast lesions after NST of less than 2 cm on imaging. Enrollment was from March 6, 2017, to November 9, 2021. Data analysis was from October to December 2024.\nIntervention: Image-guided VAB of the tumor bed (9G with a minimum of 12 cores) was performed after standard NST. Patients with clinically node-negative disease at diagnosis and no residual cancer in the breast on post-NST VAB underwent whole-breast radiotherapy with a boost without breast or axillary surgery. Patients with initial documented nodal disease and a breast pCR on VAB underwent targeted axillary dissection, while those with residual cancer when undergoing VAB had standard breast and axillary surgery. Patients were monitored with physical examinations and mammography every 6 months.\nMain Outcome Measures: The primary outcome was ipsilateral breast tumor recurrence.\nResults: Fifty patients (median [IQR] age, 62 [55-77] years) were enrolled and underwent post-NST VAB. Twenty-nine (58%) and 21 (42%) patients had ERBB2-positive and triple-negative invasive BC, respectively. Breast pCR on VAB was identified in 31 patients (62%; 95% CI, 47.2%-75.34%), and axillary pCR was identified among all 8 patients with initial nodal metastases and breast pCR on VAB who underwent targeted axillary dissection. At a median follow-up of 55.4 (IQR, 44.0-63.5) mo",
+  "pmid": "40152443",
+  "journal": "JAMA oncology",
+  "year": 2025,
+  "pub_types": [
+   "Journal Article",
+   "Clinical Trial, Phase II",
+   "Multicenter Study"
+  ],
+  "mesh": [
+   "Humans",
+   "Female",
+   "Middle Aged",
+   "Breast Neoplasms",
+   "Aged",
+   "Adult",
+   "Neoadjuvant Therapy",
+   "Prospective Studies",
+   "Image-Guided Biopsy",
+   "Neoplasm, Residual",
+   "Neoplasm Invasiveness",
+   "Mastectomy",
+   "Treatment Outcome"
+  ],
+  "topic": "oncology"
+ },
+ {
+  "id": "PMID36646802",
+  "text": "Molecular residual disease and efficacy of adjuvant chemotherapy in patients with colorectal cancer.\nDespite standard-of-care treatment, more than 30% of patients with resectable colorectal cancer (CRC) relapse. Circulating tumor DNA (ctDNA) analysis may enable postsurgical risk stratification and adjuvant chemotherapy (ACT) treatment decision-making. We report results from GALAXY, which is an observational arm of the ongoing CIRCULATE-Japan study (UMIN000039205) that analyzed presurgical and postsurgical ctDNA in patients with stage II-IV resectable CRC (n = 1,039). In this cohort, with a median follow-up of 16.74 months (range 0.49-24.83 months), postsurgical ctDNA positivity (at 4 weeks after surgery) was associated with higher recurrence risk (hazard ratio (HR) 10.0, P < 0.0001) and was the most significant prognostic factor associated with recurrence risk in patients with stage II or III CRC (HR 10.82, P < 0.001). Furthermore, postsurgical ctDNA positivity identified patients with stage II or III CRC who derived benefit from ACT (HR 6.59, P < 0.0001). The results of our study, a large and comprehensive prospective analysis of ctDNA in resectable CRC, support the use of ctDNA testing to identify patients who are at increased risk of recurrence and are likely to benefit from ACT.\nMeSH: Humans; Neoplasm Recurrence, Local; Colorectal Neoplasms; Chemotherapy, Adjuvant; Proportional Hazards Models; Japan; Biomarkers, Tumor; Neoplasm, Residual",
+  "title": "Molecular residual disease and efficacy of adjuvant chemotherapy in patients with colorectal cancer.",
+  "abstract": "Despite standard-of-care treatment, more than 30% of patients with resectable colorectal cancer (CRC) relapse. Circulating tumor DNA (ctDNA) analysis may enable postsurgical risk stratification and adjuvant chemotherapy (ACT) treatment decision-making. We report results from GALAXY, which is an observational arm of the ongoing CIRCULATE-Japan study (UMIN000039205) that analyzed presurgical and postsurgical ctDNA in patients with stage II-IV resectable CRC (n = 1,039). In this cohort, with a median follow-up of 16.74 months (range 0.49-24.83 months), postsurgical ctDNA positivity (at 4 weeks after surgery) was associated with higher recurrence risk (hazard ratio (HR) 10.0, P < 0.0001) and was the most significant prognostic factor associated with recurrence risk in patients with stage II or III CRC (HR 10.82, P < 0.001). Furthermore, postsurgical ctDNA positivity identified patients with stage II or III CRC who derived benefit from ACT (HR 6.59, P < 0.0001). The results of our study, a large and comprehensive prospective analysis of ctDNA in resectable CRC, support the use of ctDNA testing to identify patients who are at increased risk of recurrence and are likely to benefit from ACT.",
+  "pmid": "36646802",
+  "journal": "Nature medicine",
+  "year": 2023,
+  "pub_types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "mesh": [
+   "Humans",
+   "Neoplasm Recurrence, Local",
+   "Colorectal Neoplasms",
+   "Chemotherapy, Adjuvant",
+   "Proportional Hazards Models",
+   "Japan",
+   "Biomarkers, Tumor",
+   "Neoplasm, Residual"
+  ],
+  "topic": "oncology"
+ },
+ {
+  "id": "PMID35145098",
+  "text": "Machine learning-based integration develops an immune-derived lncRNA signature for improving outcomes in colorectal cancer.\nLong noncoding RNAs (lncRNAs) are recently implicated in modifying immunology in colorectal cancer (CRC). Nevertheless, the clinical significance of immune-related lncRNAs remains largely unexplored. In this study, we develope a machine learning-based integrative procedure for constructing a consensus immune-related lncRNA signature (IRLS). IRLS is an independent risk factor for overall survival and displays stable and powerful performance, but only demonstrates limited predictive value for relapse-free survival. Additionally, IRLS possesses distinctly superior accuracy than traditional clinical variables, molecular features, and 109 published signatures. Besides, the high-risk group is sensitive to fluorouracil-based adjuvant chemotherapy, while the low-risk group benefits more from bevacizumab. Notably, the low-risk group displays abundant lymphocyte infiltration, high expression of CD8A and PD-L1, and a response to pembrolizumab. Taken together, IRLS could serve as a robust and promising tool to improve clinical outcomes for individual CRC patients.\nMeSH: B7-H1 Antigen; Biomarkers, Tumor; CD8 Antigens; Chemotherapy, Adjuvant; Colorectal Neoplasms; Fluorouracil; Gene Expression Profiling; Gene Expression Regulation, Neoplastic; Humans; Machine Learning; Neoplasm Recurrence, Local; RNA, Long Noncoding; Risk Factors",
+  "title": "Machine learning-based integration develops an immune-derived lncRNA signature for improving outcomes in colorectal cancer.",
+  "abstract": "Long noncoding RNAs (lncRNAs) are recently implicated in modifying immunology in colorectal cancer (CRC). Nevertheless, the clinical significance of immune-related lncRNAs remains largely unexplored. In this study, we develope a machine learning-based integrative procedure for constructing a consensus immune-related lncRNA signature (IRLS). IRLS is an independent risk factor for overall survival and displays stable and powerful performance, but only demonstrates limited predictive value for relapse-free survival. Additionally, IRLS possesses distinctly superior accuracy than traditional clinical variables, molecular features, and 109 published signatures. Besides, the high-risk group is sensitive to fluorouracil-based adjuvant chemotherapy, while the low-risk group benefits more from bevacizumab. Notably, the low-risk group displays abundant lymphocyte infiltration, high expression of CD8A and PD-L1, and a response to pembrolizumab. Taken together, IRLS could serve as a robust and promising tool to improve clinical outcomes for individual CRC patients.",
+  "pmid": "35145098",
+  "journal": "Nature communications",
+  "year": 2022,
+  "pub_types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "mesh": [
+   "B7-H1 Antigen",
+   "Biomarkers, Tumor",
+   "CD8 Antigens",
+   "Chemotherapy, Adjuvant",
+   "Colorectal Neoplasms",
+   "Fluorouracil",
+   "Gene Expression Profiling",
+   "Gene Expression Regulation, Neoplastic",
+   "Humans",
+   "Machine Learning",
+   "Neoplasm Recurrence, Local",
+   "RNA, Long Noncoding",
+   "Risk Factors"
+  ],
+  "topic": "oncology"
+ },
+ {
+  "id": "PMID32402300",
+  "text": "Cancers Metastatic to the Liver.\nThe liver is a common site of metastatic cancer spread, and metastatic lesions are the most common malignant liver tumors. Diagnosis of liver metastases often is established based on clinical assessment, laboratory tests, and appropriate imaging. Surgical resection is the treatment of choice for resectable colorectal and neuroendocrine liver metastases. Long-term survival outcome data after treatment of hepatic metastases of noncolorectal non-neuroendocrine tumors are less robust. The treatment strategy for patients with liver metastases should be determined case by case in a multidisciplinary setting.\nMeSH: Biopsy; Chemotherapy, Adjuvant; Colorectal Neoplasms; Combined Modality Therapy; Diagnosis, Differential; Diagnostic Imaging; Female; Humans; Incidental Findings; Liver; Liver Function Tests; Liver Neoplasms; Male; Neoplasm Staging; Prognosis; Survival Rate",
+  "title": "Cancers Metastatic to the Liver.",
+  "abstract": "The liver is a common site of metastatic cancer spread, and metastatic lesions are the most common malignant liver tumors. Diagnosis of liver metastases often is established based on clinical assessment, laboratory tests, and appropriate imaging. Surgical resection is the treatment of choice for resectable colorectal and neuroendocrine liver metastases. Long-term survival outcome data after treatment of hepatic metastases of noncolorectal non-neuroendocrine tumors are less robust. The treatment strategy for patients with liver metastases should be determined case by case in a multidisciplinary setting.",
+  "pmid": "32402300",
+  "journal": "The Surgical clinics of North America",
+  "year": 2020,
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [
+   "Biopsy",
+   "Chemotherapy, Adjuvant",
+   "Colorectal Neoplasms",
+   "Combined Modality Therapy",
+   "Diagnosis, Differential",
+   "Diagnostic Imaging",
+   "Female",
+   "Humans",
+   "Incidental Findings",
+   "Liver",
+   "Liver Function Tests",
+   "Liver Neoplasms",
+   "Male",
+   "Neoplasm Staging",
+   "Prognosis",
+   "Survival Rate"
+  ],
+  "topic": "oncology"
+ },
+ {
+  "id": "PMID37634148",
+  "text": "Pulsed Field or Conventional Thermal Ablation for Paroxysmal Atrial Fibrillation.\nBackground: Catheter-based pulmonary vein isolation is an effective treatment for paroxysmal atrial fibrillation. Pulsed field ablation, which delivers microsecond high-voltage electrical fields, may limit damage to tissues outside the myocardium. The efficacy and safety of pulsed field ablation as compared with conventional thermal ablation are not known.\nMethods: In this randomized, single-blind, noninferiority trial, we assigned patients with drug-refractory paroxysmal atrial fibrillation in a 1:1 ratio to undergo pulsed field ablation or conventional radiofrequency or cryoballoon ablation. The primary efficacy end point was freedom from a composite of initial procedural failure, documented atrial tachyarrhythmia after a 3-month blanking period, antiarrhythmic drug use, cardioversion, or repeat ablation. The primary safety end point included acute and chronic device- and procedure-related serious adverse events.\nResults: A total of 305 patients were assigned to undergo pulsed field ablation, and 302 were assigned to undergo thermal ablation. At 1 year, the primary efficacy end point was met (i.e., no events occurred) in 204 patients (estimated probability, 73.3%) who underwent pulsed field ablation and 194 patients (estimated probability, 71.3%) who underwent thermal ablation (between-group difference, 2.0 percentage points; 95% Bayesian credible interval, -5.2 to 9.2; posterior probability of noninferiority, >0.999). Primary safety end-point events occurred in 6 patients (estimated incidence, 2.1%) who underwent pulsed field ablation and 4 patients (estimated incidence, 1.5%) who underwent thermal ablation (between-group difference, 0.6 percentage points; 95% Bayesian credible interval, -1.5 to 2.8; posterior probability of noninferiority, >0.999).\nConclusions: Among patients with paroxysmal atrial fibrillation receiving a catheter-based therapy, pulsed field ablation was noninferior to conventional thermal ablation with respect to freedom from a composite of initial procedural failure, documented atrial tachyarrhythmia after a 3-month blanking period, antiarrhythmic drug use, cardioversion, or repeat ablation and with respect to device- and procedure-related serious adverse events at 1 year. (Funded by Farapulse-Boston Scientific; ADVENT ClinicalTrials.gov number, NCT04612244.).\nMeSH: Humans; Atrial Fibrillation; Bayes Theorem; Catheter Ablation; Pulmonary Veins; Recurrence; Single-Blind Method; Tachycardia; Treatment Outcome",
+  "title": "Pulsed Field or Conventional Thermal Ablation for Paroxysmal Atrial Fibrillation.",
+  "abstract": "Background: Catheter-based pulmonary vein isolation is an effective treatment for paroxysmal atrial fibrillation. Pulsed field ablation, which delivers microsecond high-voltage electrical fields, may limit damage to tissues outside the myocardium. The efficacy and safety of pulsed field ablation as compared with conventional thermal ablation are not known.\nMethods: In this randomized, single-blind, noninferiority trial, we assigned patients with drug-refractory paroxysmal atrial fibrillation in a 1:1 ratio to undergo pulsed field ablation or conventional radiofrequency or cryoballoon ablation. The primary efficacy end point was freedom from a composite of initial procedural failure, documented atrial tachyarrhythmia after a 3-month blanking period, antiarrhythmic drug use, cardioversion, or repeat ablation. The primary safety end point included acute and chronic device- and procedure-related serious adverse events.\nResults: A total of 305 patients were assigned to undergo pulsed field ablation, and 302 were assigned to undergo thermal ablation. At 1 year, the primary efficacy end point was met (i.e., no events occurred) in 204 patients (estimated probability, 73.3%) who underwent pulsed field ablation and 194 patients (estimated probability, 71.3%) who underwent thermal ablation (between-group difference, 2.0 percentage points; 95% Bayesian credible interval, -5.2 to 9.2; posterior probability of noninferiority, >0.999). Primary safety end-point events occurred in 6 patients (estimated incidence, 2.1%) who underwent pulsed field ablation and 4 patients (estimated incidence, 1.5%) who underwent thermal ablation (between-group difference, 0.6 percentage points; 95% Bayesian credible interval, -1.5 to 2.8; posterior probability of noninferiority, >0.999).\nConclusions: Among patients with paroxysmal atrial fibrillation receiving a catheter-based therapy, pulsed field ablation was noninferior to conventional thermal ablation with respect to freedom from a composite of in",
+  "pmid": "37634148",
+  "journal": "The New England journal of medicine",
+  "year": 2023,
+  "pub_types": [
+   "Comparative Study",
+   "Equivalence Trial",
+   "Journal Article"
+  ],
+  "mesh": [
+   "Humans",
+   "Atrial Fibrillation",
+   "Bayes Theorem",
+   "Catheter Ablation",
+   "Pulmonary Veins",
+   "Recurrence",
+   "Single-Blind Method",
+   "Tachycardia",
+   "Treatment Outcome"
+  ],
+  "topic": "cardiology"
+ },
+ {
+  "id": "PMID36877118",
+  "text": "Pulsed Field Ablation for the Treatment of Atrial Fibrillation: PULSED AF Pivotal Trial.\nBackground: Pulsed field ablation uses electrical pulses to cause nonthermal irreversible electroporation and induce cardiac cell death. Pulsed field ablation may have effectiveness comparable to traditional catheter ablation while preventing thermally mediated complications.\nMethods: The PULSED AF pivotal study (Pulsed Field Ablation to Irreversibly Electroporate Tissue and Treat AF) was a prospective, global, multicenter, nonrandomized, paired single-arm study in which patients with paroxysmal (n=150) or persistent (n=150) symptomatic atrial fibrillation (AF) refractory to class I or III antiarrhythmic drugs were treated with pulsed field ablation. All patients were monitored for 1 year using weekly and symptomatic transtelephonic monitoring; 3-, 6-, and 12-month ECGs; and 6- and 12-month 24-hour Holter monitoring. The primary effectiveness end point was freedom from a composite of acute procedural failure, arrhythmia recurrence, or antiarrhythmic escalation through 12 months, excluding a 3-month blanking period to allow recovery from the procedure. The primary safety end point was freedom from a composite of serious procedure- and device-related adverse events. Kaplan-Meier methods were used to evaluate the primary end points.\nResults: Pulsed field ablation was shown to be effective at 1 year in 66.2% (95% CI, 57.9 to 73.2) of patients with paroxysmal AF and 55.1% (95% CI, 46.7 to 62.7) of patients with persistent AF. The primary safety end point occurred in 1 patient (0.7%; 95% CI, 0.1 to 4.6) in both the paroxysmal and persistent AF cohorts.\nConclusions: PULSED AF demonstrated a low rate of primary safety adverse events (0.7%) and provided effectiveness consistent with established ablation technologies using a novel irreversible electroporation energy to treat patients with AF.\nRegistration: URL: https://www.\nClinicaltrials: gov; Unique identifier: NCT04198701.\nMeSH: Humans; Atrial Fibrillation; Prospective Studies; Treatment Outcome; Anti-Arrhythmia Agents; Electrocardiography; Catheter Ablation; Recurrence; Pulmonary Veins",
+  "title": "Pulsed Field Ablation for the Treatment of Atrial Fibrillation: PULSED AF Pivotal Trial.",
+  "abstract": "Background: Pulsed field ablation uses electrical pulses to cause nonthermal irreversible electroporation and induce cardiac cell death. Pulsed field ablation may have effectiveness comparable to traditional catheter ablation while preventing thermally mediated complications.\nMethods: The PULSED AF pivotal study (Pulsed Field Ablation to Irreversibly Electroporate Tissue and Treat AF) was a prospective, global, multicenter, nonrandomized, paired single-arm study in which patients with paroxysmal (n=150) or persistent (n=150) symptomatic atrial fibrillation (AF) refractory to class I or III antiarrhythmic drugs were treated with pulsed field ablation. All patients were monitored for 1 year using weekly and symptomatic transtelephonic monitoring; 3-, 6-, and 12-month ECGs; and 6- and 12-month 24-hour Holter monitoring. The primary effectiveness end point was freedom from a composite of acute procedural failure, arrhythmia recurrence, or antiarrhythmic escalation through 12 months, excluding a 3-month blanking period to allow recovery from the procedure. The primary safety end point was freedom from a composite of serious procedure- and device-related adverse events. Kaplan-Meier methods were used to evaluate the primary end points.\nResults: Pulsed field ablation was shown to be effective at 1 year in 66.2% (95% CI, 57.9 to 73.2) of patients with paroxysmal AF and 55.1% (95% CI, 46.7 to 62.7) of patients with persistent AF. The primary safety end point occurred in 1 patient (0.7%; 95% CI, 0.1 to 4.6) in both the paroxysmal and persistent AF cohorts.\nConclusions: PULSED AF demonstrated a low rate of primary safety adverse events (0.7%) and provided effectiveness consistent with established ablation technologies using a novel irreversible electroporation energy to treat patients with AF.\nRegistration: URL: https://www.\nClinicaltrials: gov; Unique identifier: NCT04198701.",
+  "pmid": "36877118",
+  "journal": "Circulation",
+  "year": 2023,
+  "pub_types": [
+   "Multicenter Study",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "mesh": [
+   "Humans",
+   "Atrial Fibrillation",
+   "Prospective Studies",
+   "Treatment Outcome",
+   "Anti-Arrhythmia Agents",
+   "Electrocardiography",
+   "Catheter Ablation",
+   "Recurrence",
+   "Pulmonary Veins"
+  ],
+  "topic": "cardiology"
+ },
+ {
+  "id": "PMID39824172",
+  "text": "Repeat procedures after pulsed field ablation for atrial fibrillation: MANIFEST-REDO study.\nAims: Initial clinical studies of pulsed field ablation (PFA) to treat atrial fibrillation (AF) indicated a >90% durability rate of pulmonary vein isolation (PVI). However, these studies were largely conducted in single centres and involved a limited number of operators. We aimed to describe the electrophysiological findings and outcomes in patients undergoing repeat ablation after an initial PF ablation for AF.\nMethods And Results: In the MANIFEST-REDO study, we investigated patients who underwent repeat ablation due to clinical recurrence-AF or atrial tachycardia (AT)-following first-ever PVI with a pentaspline PFA catheter (Farawave, Boston Scientific Inc.). At 22 centres, 427 patients (age 64 ± 11 years; 37% female) were included. Of note, the recurrent arrhythmia leading to the repeat ablation was paroxysmal AF (51%), persistent AF (30%), or AT (19%). At the repeat procedure, the PV reconnection rates were 30% (left superior pulmonary vein), 28% (left inferior pulmonary vein), 33% (right superior pulmonary vein), and 32% (right inferior pulmonary vein). In 45% of patients, all PVs were durably isolated at the beginning of the repeat procedure, with the previous use of any imaging or mapping modality being univariately associated with durable PVI. After a post-redo follow-up period of 284 (90-366) days, the primary effectiveness endpoint (freedom from documented AF/AT lasting ≥30 s after 3-month blanking without class I/III antiarrhythmic drugs or symptoms) was achieved in 65% of patients, with significant differences between groups (PAF 65% vs. PersAF 56% vs. AT 76%; P = 0.04). Persistent AF as recurrent arrhythmia after the initial PFA ablation predicted AT/AF recurrence after repeat ablation [hazard ratio 1.241 (95% confidence interval 1.534-1.005); P = 0.045]. The procedural complication rate was 2.8%.\nConclusion: In repeat procedures for AF/AT performed after an index procedure with PFA for AF, PV reconnections are not uncommon. Repeat procedures can be performed safely and with an acceptable subsequent success rate.\nMeSH: Humans; Atrial Fibrillation; Female; Middle Aged; Male; Catheter Ablation; Pulmonary Veins; Recurrence; Aged; Reoperation; Treatment Outcome; Action Potentials; Electrophysiologic Techniques, Cardiac; Time Factors; Tachycardia, Supraventricular; Risk Factors; Heart Rate",
+  "title": "Repeat procedures after pulsed field ablation for atrial fibrillation: MANIFEST-REDO study.",
+  "abstract": "Aims: Initial clinical studies of pulsed field ablation (PFA) to treat atrial fibrillation (AF) indicated a >90% durability rate of pulmonary vein isolation (PVI). However, these studies were largely conducted in single centres and involved a limited number of operators. We aimed to describe the electrophysiological findings and outcomes in patients undergoing repeat ablation after an initial PF ablation for AF.\nMethods And Results: In the MANIFEST-REDO study, we investigated patients who underwent repeat ablation due to clinical recurrence-AF or atrial tachycardia (AT)-following first-ever PVI with a pentaspline PFA catheter (Farawave, Boston Scientific Inc.). At 22 centres, 427 patients (age 64 ± 11 years; 37% female) were included. Of note, the recurrent arrhythmia leading to the repeat ablation was paroxysmal AF (51%), persistent AF (30%), or AT (19%). At the repeat procedure, the PV reconnection rates were 30% (left superior pulmonary vein), 28% (left inferior pulmonary vein), 33% (right superior pulmonary vein), and 32% (right inferior pulmonary vein). In 45% of patients, all PVs were durably isolated at the beginning of the repeat procedure, with the previous use of any imaging or mapping modality being univariately associated with durable PVI. After a post-redo follow-up period of 284 (90-366) days, the primary effectiveness endpoint (freedom from documented AF/AT lasting ≥30 s after 3-month blanking without class I/III antiarrhythmic drugs or symptoms) was achieved in 65% of patients, with significant differences between groups (PAF 65% vs. PersAF 56% vs. AT 76%; P = 0.04). Persistent AF as recurrent arrhythmia after the initial PFA ablation predicted AT/AF recurrence after repeat ablation [hazard ratio 1.241 (95% confidence interval 1.534-1.005); P = 0.045]. The procedural complication rate was 2.8%.\nConclusion: In repeat procedures for AF/AT performed after an index procedure with PFA for AF, PV reconnections are not uncommon. Repeat procedures can be per",
+  "pmid": "39824172",
+  "journal": "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology",
+  "year": 2025,
+  "pub_types": [
+   "Journal Article",
+   "Multicenter Study"
+  ],
+  "mesh": [
+   "Humans",
+   "Atrial Fibrillation",
+   "Female",
+   "Middle Aged",
+   "Male",
+   "Catheter Ablation",
+   "Pulmonary Veins",
+   "Recurrence",
+   "Aged",
+   "Reoperation",
+   "Treatment Outcome",
+   "Action Potentials",
+   "Electrophysiologic Techniques, Cardiac",
+   "Time Factors",
+   "Tachycardia, Supraventricular",
+   "Risk Factors",
+   "Heart Rate"
+  ],
+  "topic": "cardiology"
+ },
+ {
+  "id": "PMID31085321",
+  "text": "Pulsed Field Ablation for Pulmonary Vein Isolation in Atrial Fibrillation.\nBackground: Catheter ablation of atrial fibrillation using thermal energies such as radiofrequency or cryothermy is associated with indiscriminate tissue destruction. During pulsed field ablation (PFA), subsecond electric fields create microscopic pores in cell membranes-a process called electroporation. Among cell types, cardiomyocytes have among the lowest thresholds to these fields, potentially permitting preferential myocardial ablation.\nObjectives: The purpose of these 2 trials was to determine whether PFA allows durable pulmonary vein (PV) isolation without damage to collateral structures.\nMethods: Two trials were conducted to assess the safety and effectiveness of catheter-based PFA in paroxysmal atrial fibrillation. Ablation was performed using proprietary bipolar PFA waveforms: either monophasic with general anesthesia and paralytics to minimize muscle contraction, or biphasic with sedation because there was minimal muscular stimulation. No esophageal protection strategy was used. Invasive electrophysiological mapping was repeated after 3 months to assess the durability of PV isolation.\nResults: In 81 patients, all PVs were acutely isolated by monophasic (n = 15) or biphasic (n = 66) PFA with ≤3 min elapsed delivery/patient, skin-to-skin procedure time of 92.2 ± 27.4 min, and fluoroscopy time of 13.1 ± 7.6 min. With successive waveform refinement, durability at 3 months improved from 18% to 100% of patients with all PVs isolated. Beyond 1 procedure-related pericardial tamponade, there were no additional primary adverse events over the 120-day median follow-up, including: stroke, phrenic nerve injury, PV stenosis, and esophageal injury. The 12-month Kaplan-Meier estimate of freedom from arrhythmia was 87.4 ± 5.6%.\nConclusions: In first-in-human trials, PFA preferentially affected myocardial tissue, allowing facile ultra-rapid PV isolation with excellent durability and chronic safety. (IMPULSE: A Safety and Feasibility Study of the IOWA Approach Endocardial Ablation System to Treat Atrial Fibrillation; NCT03700385; and PEFCAT: A Safety and Feasibility Study of the FARAPULSE Endocardial Ablation System to Treat Paroxysmal Atrial Fibrillation; NCT03714178).\nMeSH: Aged; Atrial Fibrillation; Catheter Ablation; Feasibility Studies; Female; Humans; Male; Middle Aged; Pulmonary Veins; Treatment Outcome",
+  "title": "Pulsed Field Ablation for Pulmonary Vein Isolation in Atrial Fibrillation.",
+  "abstract": "Background: Catheter ablation of atrial fibrillation using thermal energies such as radiofrequency or cryothermy is associated with indiscriminate tissue destruction. During pulsed field ablation (PFA), subsecond electric fields create microscopic pores in cell membranes-a process called electroporation. Among cell types, cardiomyocytes have among the lowest thresholds to these fields, potentially permitting preferential myocardial ablation.\nObjectives: The purpose of these 2 trials was to determine whether PFA allows durable pulmonary vein (PV) isolation without damage to collateral structures.\nMethods: Two trials were conducted to assess the safety and effectiveness of catheter-based PFA in paroxysmal atrial fibrillation. Ablation was performed using proprietary bipolar PFA waveforms: either monophasic with general anesthesia and paralytics to minimize muscle contraction, or biphasic with sedation because there was minimal muscular stimulation. No esophageal protection strategy was used. Invasive electrophysiological mapping was repeated after 3 months to assess the durability of PV isolation.\nResults: In 81 patients, all PVs were acutely isolated by monophasic (n = 15) or biphasic (n = 66) PFA with ≤3 min elapsed delivery/patient, skin-to-skin procedure time of 92.2 ± 27.4 min, and fluoroscopy time of 13.1 ± 7.6 min. With successive waveform refinement, durability at 3 months improved from 18% to 100% of patients with all PVs isolated. Beyond 1 procedure-related pericardial tamponade, there were no additional primary adverse events over the 120-day median follow-up, including: stroke, phrenic nerve injury, PV stenosis, and esophageal injury. The 12-month Kaplan-Meier estimate of freedom from arrhythmia was 87.4 ± 5.6%.\nConclusions: In first-in-human trials, PFA preferentially affected myocardial tissue, allowing facile ultra-rapid PV isolation with excellent durability and chronic safety. (IMPULSE: A Safety and Feasibility Study of the IOWA Approach Endocardial A",
+  "pmid": "31085321",
+  "journal": "Journal of the American College of Cardiology",
+  "year": 2019,
+  "pub_types": [
+   "Journal Article",
+   "Observational Study",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "mesh": [
+   "Aged",
+   "Atrial Fibrillation",
+   "Catheter Ablation",
+   "Feasibility Studies",
+   "Female",
+   "Humans",
+   "Male",
+   "Middle Aged",
+   "Pulmonary Veins",
+   "Treatment Outcome"
+  ],
+  "topic": "cardiology"
+ },
+ {
+  "id": "PMID39680399",
+  "text": "Atrial Fibrillation: A Review.\nImportance: In the US, approximately 10.55 million adults have atrial fibrillation (AF). AF is associated with significantly increased risk of stroke, heart failure, myocardial infarction, dementia, chronic kidney disease, and mortality.\nObservations: Symptoms of AF include palpitations, dyspnea, chest pain, presyncope, exertional intolerance, and fatigue, although approximately 10% to 40% of people with AF are asymptomatic. AF can be detected incidentally during clinical encounters, with wearable devices, or through interrogation of cardiac implanted electronic devices. In patients presenting with ischemic stroke without diagnosed AF, an implantable loop recorder (ie, subcutaneous telemetry device) can evaluate patients for intermittent AF. The 2023 American College of Cardiology (ACC)/American Heart Association (AHA)/American College of Clinical Pharmacy (ACCP)/Heart Rhythm Society (HRS) Guideline writing group proposed 4 stages of AF evolution: stage 1, at risk, defined as patients with AF-associated risk factors (eg, obesity, hypertension); stage 2, pre-AF, signs of atrial pathology on electrocardiogram or imaging without AF; stage 3, the presence of paroxysmal (recurrent AF episodes lasting ≤7 days) or persistent (continuous AF episode lasting >7 days) AF subtypes; and stage 4, permanent AF. Lifestyle and risk factor modification, including weight loss and exercise, to prevent AF onset, recurrence, and complications are recommended for all stages. In patients with estimated risk of stroke and thromboembolic events of 2% or greater per year, anticoagulation with a vitamin K antagonist or direct oral anticoagulant reduces stroke risk by 60% to 80% compared with placebo. In most patients, a direct oral anticoagulant, such as apixaban, rivaroxaban, or edoxaban, is recommended over warfarin because of lower bleeding risks. Compared with anticoagulation, aspirin is associated with poorer efficacy and is not recommended for stroke prevention. Early rhythm control with antiarrhythmic drugs or catheter ablation to restore and maintain sinus rhythm is recommended by the 2023 ACC/AHA/ACCP/HRS Guideline for some patients with AF. Catheter ablation is first-line therapy in patients with symptomatic paroxysmal AF to improve symptoms and slow progression to persistent AF. Catheter ablation is also recommended for patients with AF who have heart failure with reduced ejection fraction (HFrEF) to improve quality of life, left ventricular systolic function, and cardiovascular outcomes, such as rates of mortality and heart failure hospitalization.\nConclusions And Relevance: AF is associated with increased rates of stroke, heart failure, and mortality. Lifestyle and risk factor modification are recommended to prevent AF onset, recurrence, and complications, and oral anticoagulants are recommended for those with an estimated risk of stroke or thromboembolic events of 2% or greater per year. Early rhythm control using antiarrhythmic drugs or catheter ablation is recommended in select patients with AF experiencing symptomatic paroxysmal AF or HFrEF.\nMeSH: Humans; Anti-Arrhythmia Agents; Anticoagulants; Atrial Fibrillation; Catheter Ablation; Risk Factors; Stroke; Heart Failure; Recurrence; Thromboembolism; Electrocardiography",
+  "title": "Atrial Fibrillation: A Review.",
+  "abstract": "Importance: In the US, approximately 10.55 million adults have atrial fibrillation (AF). AF is associated with significantly increased risk of stroke, heart failure, myocardial infarction, dementia, chronic kidney disease, and mortality.\nObservations: Symptoms of AF include palpitations, dyspnea, chest pain, presyncope, exertional intolerance, and fatigue, although approximately 10% to 40% of people with AF are asymptomatic. AF can be detected incidentally during clinical encounters, with wearable devices, or through interrogation of cardiac implanted electronic devices. In patients presenting with ischemic stroke without diagnosed AF, an implantable loop recorder (ie, subcutaneous telemetry device) can evaluate patients for intermittent AF. The 2023 American College of Cardiology (ACC)/American Heart Association (AHA)/American College of Clinical Pharmacy (ACCP)/Heart Rhythm Society (HRS) Guideline writing group proposed 4 stages of AF evolution: stage 1, at risk, defined as patients with AF-associated risk factors (eg, obesity, hypertension); stage 2, pre-AF, signs of atrial pathology on electrocardiogram or imaging without AF; stage 3, the presence of paroxysmal (recurrent AF episodes lasting ≤7 days) or persistent (continuous AF episode lasting >7 days) AF subtypes; and stage 4, permanent AF. Lifestyle and risk factor modification, including weight loss and exercise, to prevent AF onset, recurrence, and complications are recommended for all stages. In patients with estimated risk of stroke and thromboembolic events of 2% or greater per year, anticoagulation with a vitamin K antagonist or direct oral anticoagulant reduces stroke risk by 60% to 80% compared with placebo. In most patients, a direct oral anticoagulant, such as apixaban, rivaroxaban, or edoxaban, is recommended over warfarin because of lower bleeding risks. Compared with anticoagulation, aspirin is associated with poorer efficacy and is not recommended for stroke prevention. Early rhythm control with",
+  "pmid": "39680399",
+  "journal": "JAMA",
+  "year": 2025,
+  "pub_types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't",
+   "Review"
+  ],
+  "mesh": [
+   "Humans",
+   "Anti-Arrhythmia Agents",
+   "Anticoagulants",
+   "Atrial Fibrillation",
+   "Catheter Ablation",
+   "Risk Factors",
+   "Stroke",
+   "Heart Failure",
+   "Recurrence",
+   "Thromboembolism",
+   "Electrocardiography"
+  ],
+  "topic": "cardiology"
+ },
+ {
+  "id": "PMID36537565",
+  "text": "Atrial fibrillation and stroke.\nIntroduction: Stroke is one of the leading causes of mortality and morbidity globally. Atrial fibrillation (AF) is the most common sustained cardiac arrhythmia. It is set to reach epidemic proportions. AF is associated with a five-fold increase in risk of stroke. Strokes caused by AF more often are fatal or result in severe disability. Even though the incidence of stroke has been significantly reduced by oral anticoagulation, AF is thought to account for a significant proportion of cryptogenic strokes where no etiology is identified.\nAreas Covered: This article reviews the literature related to AF and stroke, pathophysiological insights, diagnosis of AF in stroke patients, and its management (Graphical Abstract).\nExpert Opinion: The pathophysiology of thrombogenesis that links AF and stroke is not well understood and is an area of active research to identify new therapeutic targets to prevent AF and stroke. As the nature of AF and stroke is multifaceted, an integrated care approach to managing AF and stroke is increasingly essential.\nMeSH: Humans; Atrial Fibrillation; Risk Factors; Stroke; Ischemic Stroke; Incidence; Anticoagulants",
+  "title": "Atrial fibrillation and stroke.",
+  "abstract": "Introduction: Stroke is one of the leading causes of mortality and morbidity globally. Atrial fibrillation (AF) is the most common sustained cardiac arrhythmia. It is set to reach epidemic proportions. AF is associated with a five-fold increase in risk of stroke. Strokes caused by AF more often are fatal or result in severe disability. Even though the incidence of stroke has been significantly reduced by oral anticoagulation, AF is thought to account for a significant proportion of cryptogenic strokes where no etiology is identified.\nAreas Covered: This article reviews the literature related to AF and stroke, pathophysiological insights, diagnosis of AF in stroke patients, and its management (Graphical Abstract).\nExpert Opinion: The pathophysiology of thrombogenesis that links AF and stroke is not well understood and is an area of active research to identify new therapeutic targets to prevent AF and stroke. As the nature of AF and stroke is multifaceted, an integrated care approach to managing AF and stroke is increasingly essential.",
+  "pmid": "36537565",
+  "journal": "Expert review of cardiovascular therapy",
+  "year": 2023,
+  "pub_types": [
+   "Review",
+   "Journal Article"
+  ],
+  "mesh": [
+   "Humans",
+   "Atrial Fibrillation",
+   "Risk Factors",
+   "Stroke",
+   "Ischemic Stroke",
+   "Incidence",
+   "Anticoagulants"
+  ],
+  "topic": "cardiology"
+ },
+ {
+  "id": "PMID37913929",
+  "text": "Atrial fibrillation and stroke: State-of-the-art and future directions.\nAtrial fibrillation (AF) and stroke remain a major cause of morbidity and mortality. The two conditions shared common co-morbidities and risk factors. AF-related strokes are associated with worse clinical outcomes and higher mortality compared to non-AF-related. Early detection of AF is vital for prevention. While various scores have been developed to predict AF in such a high-risk group, they are yet to incorporated into clinical guidelines. Novel markers and predictors of AF including coronary and intracranial arterial calcification have also been studied. There are also ongoing debates on the management of acute stroke in patients with AF, and those who experienced breakthrough stroke while on oral anticoagulants. We provided an overview of the complex interplay between AF and stroke, as well as the treatment and secondary prevention of stroke in AF. We also comprehensively discussed the current evidence and the ongoing conundrums, and highlighted the future directions on the topic.\nMeSH: Humans; Atrial Fibrillation; Stroke; Anticoagulants; Comorbidity; Risk Factors; Administration, Oral",
+  "title": "Atrial fibrillation and stroke: State-of-the-art and future directions.",
+  "abstract": "Atrial fibrillation (AF) and stroke remain a major cause of morbidity and mortality. The two conditions shared common co-morbidities and risk factors. AF-related strokes are associated with worse clinical outcomes and higher mortality compared to non-AF-related. Early detection of AF is vital for prevention. While various scores have been developed to predict AF in such a high-risk group, they are yet to incorporated into clinical guidelines. Novel markers and predictors of AF including coronary and intracranial arterial calcification have also been studied. There are also ongoing debates on the management of acute stroke in patients with AF, and those who experienced breakthrough stroke while on oral anticoagulants. We provided an overview of the complex interplay between AF and stroke, as well as the treatment and secondary prevention of stroke in AF. We also comprehensively discussed the current evidence and the ongoing conundrums, and highlighted the future directions on the topic.",
+  "pmid": "37913929",
+  "journal": "Current problems in cardiology",
+  "year": 2024,
+  "pub_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "mesh": [
+   "Humans",
+   "Atrial Fibrillation",
+   "Stroke",
+   "Anticoagulants",
+   "Comorbidity",
+   "Risk Factors",
+   "Administration, Oral"
+  ],
+  "topic": "cardiology"
+ },
+ {
+  "id": "PMID39361750",
+  "text": "Cancer immunotherapy by γδ T cells.\nThe premise of cancer immunotherapy is that cancers are specifically visible to an immune system tolerized to healthy self. The promise of cancer immunotherapy is that immune effector mechanisms and immunological memory can jointly eradicate cancers and inoperable metastases and de facto vaccinate against recurrence. For some patients with hitherto incurable diseases, including metastatic melanoma, this promise is being realized by game-changing immunotherapies based on αβ T cells. Today's challenges are to bring benefit to greater numbers of patients of diverse ethnicities, target more cancer types, and achieve a cure while incurring fewer adverse events. In meeting those challenges, specific benefits may be offered by γδ T cells, which compose a second T cell lineage with distinct recognition capabilities and functional traits that bridge innate and adaptive immunity. γδ T cell-based clinical trials, including off-the-shelf adoptive cell therapy and agonist antibodies, are yielding promising results, although identifiable problems remain. In addressing those problems, we advocate that immunotherapies be guided by the distinctive biology of γδ T cells, as elucidated by ongoing research.\nMeSH: Animals; Humans; Clinical Trials as Topic; Immunotherapy, Adoptive; Intraepithelial Lymphocytes; Melanoma; Neoplasms; Receptors, Antigen, T-Cell, gamma-delta",
+  "title": "Cancer immunotherapy by γδ T cells.",
+  "abstract": "The premise of cancer immunotherapy is that cancers are specifically visible to an immune system tolerized to healthy self. The promise of cancer immunotherapy is that immune effector mechanisms and immunological memory can jointly eradicate cancers and inoperable metastases and de facto vaccinate against recurrence. For some patients with hitherto incurable diseases, including metastatic melanoma, this promise is being realized by game-changing immunotherapies based on αβ T cells. Today's challenges are to bring benefit to greater numbers of patients of diverse ethnicities, target more cancer types, and achieve a cure while incurring fewer adverse events. In meeting those challenges, specific benefits may be offered by γδ T cells, which compose a second T cell lineage with distinct recognition capabilities and functional traits that bridge innate and adaptive immunity. γδ T cell-based clinical trials, including off-the-shelf adoptive cell therapy and agonist antibodies, are yielding promising results, although identifiable problems remain. In addressing those problems, we advocate that immunotherapies be guided by the distinctive biology of γδ T cells, as elucidated by ongoing research.",
+  "pmid": "39361750",
+  "journal": "Science (New York, N.Y.)",
+  "year": 2024,
+  "pub_types": [
+   "Journal Article",
+   "Review",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "mesh": [
+   "Animals",
+   "Humans",
+   "Clinical Trials as Topic",
+   "Immunotherapy, Adoptive",
+   "Intraepithelial Lymphocytes",
+   "Melanoma",
+   "Neoplasms",
+   "Receptors, Antigen, T-Cell, gamma-delta"
+  ],
+  "topic": "oncology"
+ },
+ {
+  "id": "PMID33759772",
+  "text": "Biology of Melanoma.\nMelanoma skin cancer is derived from skin melanocytes and has a high risk of metastatic spread. The era of molecular genetics and next-generation sequencing has uncovered the role of oncogenic BRAFV600E mutations in many melanomas, validated the role of ultraviolet-induced DNA mutations in melanoma formation, and uncovered many of the molecular events that occur during melanoma development. Targeted therapies and immunotherapy have dramatically improved outcomes and provided an increased rate of cure for metastatic melanoma. This article reviews the formation of melanoma, the molecular events involved in melanoma growth and metastasis, and the biology underlying resistance to melanoma therapies.\nMeSH: Carcinogenesis; Drug Resistance, Neoplasm; Humans; Immunotherapy; Melanocytes; Melanoma; Microphthalmia-Associated Transcription Factor; Skin Neoplasms; Ultraviolet Rays",
+  "title": "Biology of Melanoma.",
+  "abstract": "Melanoma skin cancer is derived from skin melanocytes and has a high risk of metastatic spread. The era of molecular genetics and next-generation sequencing has uncovered the role of oncogenic BRAFV600E mutations in many melanomas, validated the role of ultraviolet-induced DNA mutations in melanoma formation, and uncovered many of the molecular events that occur during melanoma development. Targeted therapies and immunotherapy have dramatically improved outcomes and provided an increased rate of cure for metastatic melanoma. This article reviews the formation of melanoma, the molecular events involved in melanoma growth and metastasis, and the biology underlying resistance to melanoma therapies.",
+  "pmid": "33759772",
+  "journal": "Hematology/oncology clinics of North America",
+  "year": 2021,
+  "pub_types": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't",
+   "Review"
+  ],
+  "mesh": [
+   "Carcinogenesis",
+   "Drug Resistance, Neoplasm",
+   "Humans",
+   "Immunotherapy",
+   "Melanocytes",
+   "Melanoma",
+   "Microphthalmia-Associated Transcription Factor",
+   "Skin Neoplasms",
+   "Ultraviolet Rays"
+  ],
+  "topic": "oncology"
+ },
+ {
+  "id": "PMID37256976",
+  "text": "Capivasertib in Hormone Receptor-Positive Advanced Breast Cancer.\nBackground: AKT pathway activation is implicated in endocrine-therapy resistance. Data on the efficacy and safety of the AKT inhibitor capivasertib, as an addition to fulvestrant therapy, in patients with hormone receptor-positive advanced breast cancer are limited.\nMethods: In a phase 3, randomized, double-blind trial, we enrolled eligible pre-, peri-, and postmenopausal women and men with hormone receptor-positive, human epidermal growth factor receptor 2-negative advanced breast cancer who had had a relapse or disease progression during or after treatment with an aromatase inhibitor, with or without previous cyclin-dependent kinase 4 and 6 (CDK4/6) inhibitor therapy. Patients were randomly assigned in a 1:1 ratio to receive capivasertib plus fulvestrant or placebo plus fulvestrant. The dual primary end point was investigator-assessed progression-free survival assessed both in the overall population and among patients with AKT pathway-altered (PIK3CA, AKT1, or PTEN) tumors. Safety was assessed.\nResults: Overall, 708 patients underwent randomization; 289 patients (40.8%) had AKT pathway alterations, and 489 (69.1%) had received a CDK4/6 inhibitor previously for advanced breast cancer. In the overall population, the median progression-free survival was 7.2 months in the capivasertib-fulvestrant group, as compared with 3.6 months in the placebo-fulvestrant group (hazard ratio for progression or death, 0.60; 95% confidence interval [CI], 0.51 to 0.71; P<0.001). In the AKT pathway-altered population, the median progression-free survival was 7.3 months in the capivasertib-fulvestrant group, as compared with 3.1 months in the placebo-fulvestrant group (hazard ratio, 0.50; 95% CI, 0.38 to 0.65; P<0.001). The most frequent adverse events of grade 3 or higher in patients receiving capivasertib-fulvestrant were rash (in 12.1% of patients, vs. in 0.3% of those receiving placebo-fulvestrant) and diarrhea (in 9.3% vs. 0.3%). Adverse events leading to discontinuation were reported in 13.0% of the patients receiving capivasertib and in 2.3% of those receiving placebo.\nConclusions: Capivasertib-fulvestrant therapy resulted in significantly longer progression-free survival than treatment with fulvestrant alone among patients with hormone receptor-positive advanced breast cancer whose disease had progressed during or after previous aromatase inhibitor therapy with or without a CDK4/6 inhibitor. (Funded by AstraZeneca and the National Cancer Institute; CAPItello-291 ClinicalTrials.gov number, NCT04305496.).\nMeSH: Female; Humans; Male; Antineoplastic Combined Chemotherapy Protocols; Aromatase Inhibitors; Breast Neoplasms; Double-Blind Method; Fulvestrant; Neoplasm Recurrence, Local; Proto-Oncogene Proteins c-akt; Erb-b2 Receptor Tyrosine Kinases; Pyrimidines; Pyrroles",
+  "title": "Capivasertib in Hormone Receptor-Positive Advanced Breast Cancer.",
+  "abstract": "Background: AKT pathway activation is implicated in endocrine-therapy resistance. Data on the efficacy and safety of the AKT inhibitor capivasertib, as an addition to fulvestrant therapy, in patients with hormone receptor-positive advanced breast cancer are limited.\nMethods: In a phase 3, randomized, double-blind trial, we enrolled eligible pre-, peri-, and postmenopausal women and men with hormone receptor-positive, human epidermal growth factor receptor 2-negative advanced breast cancer who had had a relapse or disease progression during or after treatment with an aromatase inhibitor, with or without previous cyclin-dependent kinase 4 and 6 (CDK4/6) inhibitor therapy. Patients were randomly assigned in a 1:1 ratio to receive capivasertib plus fulvestrant or placebo plus fulvestrant. The dual primary end point was investigator-assessed progression-free survival assessed both in the overall population and among patients with AKT pathway-altered (PIK3CA, AKT1, or PTEN) tumors. Safety was assessed.\nResults: Overall, 708 patients underwent randomization; 289 patients (40.8%) had AKT pathway alterations, and 489 (69.1%) had received a CDK4/6 inhibitor previously for advanced breast cancer. In the overall population, the median progression-free survival was 7.2 months in the capivasertib-fulvestrant group, as compared with 3.6 months in the placebo-fulvestrant group (hazard ratio for progression or death, 0.60; 95% confidence interval [CI], 0.51 to 0.71; P<0.001). In the AKT pathway-altered population, the median progression-free survival was 7.3 months in the capivasertib-fulvestrant group, as compared with 3.1 months in the placebo-fulvestrant group (hazard ratio, 0.50; 95% CI, 0.38 to 0.65; P<0.001). The most frequent adverse events of grade 3 or higher in patients receiving capivasertib-fulvestrant were rash (in 12.1% of patients, vs. in 0.3% of those receiving placebo-fulvestrant) and diarrhea (in 9.3% vs. 0.3%). Adverse events leading to discontinuation were report",
+  "pmid": "37256976",
+  "journal": "The New England journal of medicine",
+  "year": 2023,
+  "pub_types": [
+   "Clinical Trial, Phase III",
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "mesh": [
+   "Female",
+   "Humans",
+   "Male",
+   "Antineoplastic Combined Chemotherapy Protocols",
+   "Aromatase Inhibitors",
+   "Breast Neoplasms",
+   "Double-Blind Method",
+   "Fulvestrant",
+   "Neoplasm Recurrence, Local",
+   "Proto-Oncogene Proteins c-akt",
+   "Erb-b2 Receptor Tyrosine Kinases",
+   "Pyrimidines",
+   "Pyrroles"
+  ],
+  "topic": "oncology"
+ }
+]

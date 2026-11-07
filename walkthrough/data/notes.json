@@ -1,0 +1,832 @@
+[
+ {
+  "patient_id": "0001",
+  "id": "0001-n01",
+  "title": "Initial consult",
+  "body": "## Subjective\n58-year-old woman referred after screening mammogram showed a 3.1 cm right breast mass. Core biopsy confirmed invasive ductal carcinoma. No prior cancer history. Family history: mother with breast cancer in her 60s.\n\n## Assessment\nInvasive ductal carcinoma, right breast, clinical stage II. Receptors ER-/PR-/HER2 3+.\n\n## Plan\n- Staging CT chest/abdomen/pelvis and bone scan.\n- Baseline echocardiogram before HER2-directed therapy.\n- Discuss neoadjuvant chemotherapy with trastuzumab and pertuzumab.\n- Refer to genetics for BRCA testing.",
+  "text": "Initial consult\n## Subjective\n58-year-old woman referred after screening mammogram showed a 3.1 cm right breast mass. Core biopsy confirmed invasive ductal carcinoma. No prior cancer history. Family history: mother with breast cancer in her 60s.\n\n## Assessment\nInvasive ductal carcinoma, right breast, clinical stage II. Receptors ER-/PR-/HER2 3+.\n\n## Plan\n- Staging CT chest/abdomen/pelvis and bone scan.\n- Baseline echocardiogram before HER2-directed therapy.\n- Discuss neoadjuvant chemotherapy with trastuzumab and pertuzumab.\n- Refer to genetics for BRCA testing.",
+  "note_type": "Visit note",
+  "visit_date": "2026-08-12",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0001",
+  "id": "0001-n02",
+  "title": "Pathology summary",
+  "body": "Core needle biopsy, right breast: invasive ductal carcinoma, grade 3. Receptors: ER-/PR-/HER2 3+ by IHC. Ki-67 35%. Lymphovascular invasion not identified on biopsy.",
+  "text": "Pathology summary\nCore needle biopsy, right breast: invasive ductal carcinoma, grade 3. Receptors: ER-/PR-/HER2 3+ by IHC. Ki-67 35%. Lymphovascular invasion not identified on biopsy.",
+  "note_type": "Result",
+  "visit_date": "2026-08-18",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0001",
+  "id": "0001-n03",
+  "title": "Baseline echocardiogram",
+  "body": "Transthoracic echo before trastuzumab. LVEF 64%. Normal wall motion. No valvular disease. Global longitudinal strain -20%. Cleared to start HER2-directed therapy with echo every 3 months.",
+  "text": "Baseline echocardiogram\nTransthoracic echo before trastuzumab. LVEF 64%. Normal wall motion. No valvular disease. Global longitudinal strain -20%. Cleared to start HER2-directed therapy with echo every 3 months.",
+  "note_type": "Result",
+  "visit_date": "2026-08-24",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0001",
+  "id": "0001-n04",
+  "title": "Cycle 1 neoadjuvant therapy",
+  "body": "## Subjective\nStarts cycle 1 of docetaxel, carboplatin, trastuzumab and pertuzumab (TCHP). Anxious but well informed.\n\n## Plan\n- Premedication per protocol.\n- Growth factor support.\n- Labs before each cycle.",
+  "text": "Cycle 1 neoadjuvant therapy\n## Subjective\nStarts cycle 1 of docetaxel, carboplatin, trastuzumab and pertuzumab (TCHP). Anxious but well informed.\n\n## Plan\n- Premedication per protocol.\n- Growth factor support.\n- Labs before each cycle.",
+  "note_type": "Visit note",
+  "visit_date": "2026-09-02",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0001",
+  "id": "0001-n05",
+  "title": "Cycle 3 check-in",
+  "body": "## Subjective\nMild fatigue and diarrhea grade 1, managed with loperamide. No neuropathy.\n\n## Objective\nBreast mass smaller on exam, now about 1.0 cm.\n\n## Plan\nContinue TCHP. Echo before cycle 4.",
+  "text": "Cycle 3 check-in\n## Subjective\nMild fatigue and diarrhea grade 1, managed with loperamide. No neuropathy.\n\n## Objective\nBreast mass smaller on exam, now about 1.0 cm.\n\n## Plan\nContinue TCHP. Echo before cycle 4.",
+  "note_type": "Visit note",
+  "visit_date": "2026-10-14",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0001",
+  "id": "0001-n06",
+  "title": "Echo before cycle 4",
+  "body": "LVEF 58%, a small drop from baseline 64%. No symptoms of heart failure. Continue trastuzumab with routine cardiac monitoring every 3 months.",
+  "text": "Echo before cycle 4\nLVEF 58%, a small drop from baseline 64%. No symptoms of heart failure. Continue trastuzumab with routine cardiac monitoring every 3 months.",
+  "note_type": "Result",
+  "visit_date": "2026-10-31",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0001",
+  "id": "0001-n07",
+  "title": "Follow-up after cycle 4",
+  "body": "## Subjective\nCompleted cycle 4 of neoadjuvant therapy. Mild fatigue, no neuropathy. Appetite good. Asked whether any clinical trials could fit her after surgery.\n\n## Assessment\nResponding on exam. Ejection fraction stable on last echo.\n\n## Plan\n- Surgical consult after cycle 6.\n- Review recruiting adjuvant trials near home.\n- Repeat echo before surgery.",
+  "text": "Follow-up after cycle 4\n## Subjective\nCompleted cycle 4 of neoadjuvant therapy. Mild fatigue, no neuropathy. Appetite good. Asked whether any clinical trials could fit her after surgery.\n\n## Assessment\nResponding on exam. Ejection fraction stable on last echo.\n\n## Plan\n- Surgical consult after cycle 6.\n- Review recruiting adjuvant trials near home.\n- Repeat echo before surgery.",
+  "note_type": "Visit note",
+  "visit_date": "2026-11-04",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0002",
+  "id": "0002-n01",
+  "title": "Initial consult",
+  "body": "71-year-old man, former smoker (20 pack-years), presenting with cough and weight loss. CT shows right upper lobe mass with mediastinal nodes. Biopsy: adenocarcinoma of the lung, stage IVB.\n\n## Plan\n- Next-generation sequencing on tissue and blood.\n- Brain MRI.\n- Pulmonary function tests.",
+  "text": "Initial consult\n71-year-old man, former smoker (20 pack-years), presenting with cough and weight loss. CT shows right upper lobe mass with mediastinal nodes. Biopsy: adenocarcinoma of the lung, stage IVB.\n\n## Plan\n- Next-generation sequencing on tissue and blood.\n- Brain MRI.\n- Pulmonary function tests.",
+  "note_type": "Visit note",
+  "visit_date": "2026-04-22",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0002",
+  "id": "0002-n02",
+  "title": "Molecular testing",
+  "body": "NGS result: ALK rearrangement. PD-L1 TPS 20%. TMB 4 mut/Mb.",
+  "text": "Molecular testing\nNGS result: ALK rearrangement. PD-L1 TPS 20%. TMB 4 mut/Mb.",
+  "note_type": "Result",
+  "visit_date": "2026-05-06",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0002",
+  "id": "0002-n03",
+  "title": "Treatment plan",
+  "body": "Discussed first-line alectinib based on ALK rearrangement. Reviewed side effects. ECOG performance status 0.",
+  "text": "Treatment plan\nDiscussed first-line alectinib based on ALK rearrangement. Reviewed side effects. ECOG performance status 0.",
+  "note_type": "Visit note",
+  "visit_date": "2026-05-10",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0002",
+  "id": "0002-n04",
+  "title": "Restaging CT",
+  "body": "Partial response, primary mass decreased 40%. No new lesions. Brain MRI clear.",
+  "text": "Restaging CT\nPartial response, primary mass decreased 40%. No new lesions. Brain MRI clear.",
+  "note_type": "Result",
+  "visit_date": "2026-07-21",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0003",
+  "id": "0003-n01",
+  "title": "Initial consult",
+  "body": "44-year-old woman with melanoma of the upper back, Breslow depth 2.1 mm, ulcerated. Sentinel node positive. Stage IIIC. BRAF V600E.",
+  "text": "Initial consult\n44-year-old woman with melanoma of the upper back, Breslow depth 2.1 mm, ulcerated. Sentinel node positive. Stage IIIC. BRAF V600E.",
+  "note_type": "Visit note",
+  "visit_date": "2026-01-24",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0003",
+  "id": "0003-n02",
+  "title": "Adjuvant immunotherapy",
+  "body": "Starting adjuvant nivolumab. Baseline TSH, cortisol and liver tests normal.",
+  "text": "Adjuvant immunotherapy\nStarting adjuvant nivolumab. Baseline TSH, cortisol and liver tests normal.",
+  "note_type": "Visit note",
+  "visit_date": "2026-02-23",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0003",
+  "id": "0003-n03",
+  "title": "Immune side effects",
+  "body": "Grade 2 colitis. Holding nivolumab, starting prednisone taper. Will discuss rechallenge.",
+  "text": "Immune side effects\nGrade 2 colitis. Holding nivolumab, starting prednisone taper. Will discuss rechallenge.",
+  "note_type": "Visit note",
+  "visit_date": "2026-05-24",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0003",
+  "id": "0003-n04",
+  "title": "PET-CT",
+  "body": "No evidence of recurrence. Thyroid function now low; started levothyroxine.",
+  "text": "PET-CT\nNo evidence of recurrence. Thyroid function now low; started levothyroxine.",
+  "note_type": "Result",
+  "visit_date": "2026-08-12",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0004",
+  "id": "0004-n01",
+  "title": "Initial consult",
+  "body": "63-year-old man with sigmoid colon adenocarcinoma found on colonoscopy for rectal bleeding. Stage IVB. Tumor is MSI-high, KRAS wild-type. CEA 56.0 ng/mL.",
+  "text": "Initial consult\n63-year-old man with sigmoid colon adenocarcinoma found on colonoscopy for rectal bleeding. Stage IVB. Tumor is MSI-high, KRAS wild-type. CEA 56.0 ng/mL.",
+  "note_type": "Visit note",
+  "visit_date": "2026-02-01",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0004",
+  "id": "0004-n02",
+  "title": "Chemotherapy start",
+  "body": "Starting FOLFOX. Port placed. Discussed neuropathy, nausea and cold sensitivity.",
+  "text": "Chemotherapy start\nStarting FOLFOX. Port placed. Discussed neuropathy, nausea and cold sensitivity.",
+  "note_type": "Visit note",
+  "visit_date": "2026-02-22",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0004",
+  "id": "0004-n03",
+  "title": "Mid-treatment review",
+  "body": "Grade 2 peripheral neuropathy. Dropping oxaliplatin, continuing 5-FU. CEA trending down.",
+  "text": "Mid-treatment review\nGrade 2 peripheral neuropathy. Dropping oxaliplatin, continuing 5-FU. CEA trending down.",
+  "note_type": "Visit note",
+  "visit_date": "2026-05-22",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0004",
+  "id": "0004-n04",
+  "title": "Surveillance CT",
+  "body": "No evidence of disease in chest, abdomen or pelvis. Continue surveillance with CEA every 3 months.",
+  "text": "Surveillance CT\nNo evidence of disease in chest, abdomen or pelvis. Continue surveillance with CEA every 3 months.",
+  "note_type": "Result",
+  "visit_date": "2026-09-09",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0005",
+  "id": "0005-n01",
+  "title": "Initial consult",
+  "body": "37-year-old man with sigmoid colon adenocarcinoma found on colonoscopy for rectal bleeding. Stage III. Tumor is MSS, BRAF V600E. CEA 4.1 ng/mL.",
+  "text": "Initial consult\n37-year-old man with sigmoid colon adenocarcinoma found on colonoscopy for rectal bleeding. Stage III. Tumor is MSS, BRAF V600E. CEA 4.1 ng/mL.",
+  "note_type": "Visit note",
+  "visit_date": "2026-03-16",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0005",
+  "id": "0005-n02",
+  "title": "Chemotherapy start",
+  "body": "Starting FOLFOX. Port placed. Discussed neuropathy, nausea and cold sensitivity.",
+  "text": "Chemotherapy start\nStarting FOLFOX. Port placed. Discussed neuropathy, nausea and cold sensitivity.",
+  "note_type": "Visit note",
+  "visit_date": "2026-04-06",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0005",
+  "id": "0005-n03",
+  "title": "Mid-treatment review",
+  "body": "Grade 2 peripheral neuropathy. Dropping oxaliplatin, continuing 5-FU. CEA trending down.",
+  "text": "Mid-treatment review\nGrade 2 peripheral neuropathy. Dropping oxaliplatin, continuing 5-FU. CEA trending down.",
+  "note_type": "Visit note",
+  "visit_date": "2026-07-04",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0005",
+  "id": "0005-n04",
+  "title": "Surveillance CT",
+  "body": "No evidence of disease in chest, abdomen or pelvis. Continue surveillance with CEA every 3 months.",
+  "text": "Surveillance CT\nNo evidence of disease in chest, abdomen or pelvis. Continue surveillance with CEA every 3 months.",
+  "note_type": "Result",
+  "visit_date": "2026-10-22",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0006",
+  "id": "0006-n01",
+  "title": "Palpitations consult",
+  "body": "69-year-old woman with intermittent palpitations. ECG shows atrial fibrillation with rapid ventricular response. CHA2DS2-VASc 2. Started apixaban and diltiazem.",
+  "text": "Palpitations consult\n69-year-old woman with intermittent palpitations. ECG shows atrial fibrillation with rapid ventricular response. CHA2DS2-VASc 2. Started apixaban and diltiazem.",
+  "note_type": "Visit note",
+  "visit_date": "2026-05-27",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0006",
+  "id": "0006-n02",
+  "title": "Holter monitor",
+  "body": "AF burden 45%. Average heart rate 88.",
+  "text": "Holter monitor\nAF burden 45%. Average heart rate 88.",
+  "note_type": "Result",
+  "visit_date": "2026-07-11",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0006",
+  "id": "0006-n03",
+  "title": "Rhythm control discussion",
+  "body": "Symptoms persist despite rate control. Referred for catheter ablation, pulsed field ablation option discussed.",
+  "text": "Rhythm control discussion\nSymptoms persist despite rate control. Referred for catheter ablation, pulsed field ablation option discussed.",
+  "note_type": "Visit note",
+  "visit_date": "2026-07-26",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0006",
+  "id": "0006-n04",
+  "title": "Post-ablation follow-up",
+  "body": "In sinus rhythm since ablation. Continue anticoagulation for at least 3 months.",
+  "text": "Post-ablation follow-up\nIn sinus rhythm since ablation. Continue anticoagulation for at least 3 months.",
+  "note_type": "Visit note",
+  "visit_date": "2026-10-24",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0007",
+  "id": "0007-n01",
+  "title": "Initial consult",
+  "body": "70-year-old woman with sigmoid colon adenocarcinoma found on colonoscopy for rectal bleeding. Stage III. Tumor is MSS, KRAS G12D. CEA 56.0 ng/mL.",
+  "text": "Initial consult\n70-year-old woman with sigmoid colon adenocarcinoma found on colonoscopy for rectal bleeding. Stage III. Tumor is MSS, KRAS G12D. CEA 56.0 ng/mL.",
+  "note_type": "Visit note",
+  "visit_date": "2026-05-17",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0007",
+  "id": "0007-n02",
+  "title": "Chemotherapy start",
+  "body": "Starting FOLFOX. Port placed. Discussed neuropathy, nausea and cold sensitivity.",
+  "text": "Chemotherapy start\nStarting FOLFOX. Port placed. Discussed neuropathy, nausea and cold sensitivity.",
+  "note_type": "Visit note",
+  "visit_date": "2026-06-07",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0007",
+  "id": "0007-n03",
+  "title": "Mid-treatment review",
+  "body": "Grade 2 peripheral neuropathy. Dropping oxaliplatin, continuing 5-FU. CEA trending down.",
+  "text": "Mid-treatment review\nGrade 2 peripheral neuropathy. Dropping oxaliplatin, continuing 5-FU. CEA trending down.",
+  "note_type": "Visit note",
+  "visit_date": "2026-09-04",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0008",
+  "id": "0008-n01",
+  "title": "Palpitations consult",
+  "body": "57-year-old man with intermittent palpitations. ECG shows atrial fibrillation with rapid ventricular response. CHA2DS2-VASc 3. Started apixaban and diltiazem.",
+  "text": "Palpitations consult\n57-year-old man with intermittent palpitations. ECG shows atrial fibrillation with rapid ventricular response. CHA2DS2-VASc 3. Started apixaban and diltiazem.",
+  "note_type": "Visit note",
+  "visit_date": "2026-06-28",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0008",
+  "id": "0008-n02",
+  "title": "Holter monitor",
+  "body": "AF burden 12%. Average heart rate 88.",
+  "text": "Holter monitor\nAF burden 12%. Average heart rate 88.",
+  "note_type": "Result",
+  "visit_date": "2026-08-12",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0008",
+  "id": "0008-n03",
+  "title": "Rhythm control discussion",
+  "body": "Symptoms persist despite rate control. Referred for catheter ablation, pulsed field ablation option discussed.",
+  "text": "Rhythm control discussion\nSymptoms persist despite rate control. Referred for catheter ablation, pulsed field ablation option discussed.",
+  "note_type": "Visit note",
+  "visit_date": "2026-08-27",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0009",
+  "id": "0009-n01",
+  "title": "Initial consult",
+  "body": "55-year-old woman with sigmoid colon adenocarcinoma found on colonoscopy for rectal bleeding. Stage IVB. Tumor is MSI-high, KRAS G12D. CEA 56.0 ng/mL.",
+  "text": "Initial consult\n55-year-old woman with sigmoid colon adenocarcinoma found on colonoscopy for rectal bleeding. Stage IVB. Tumor is MSI-high, KRAS G12D. CEA 56.0 ng/mL.",
+  "note_type": "Visit note",
+  "visit_date": "2026-01-19",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0009",
+  "id": "0009-n02",
+  "title": "Chemotherapy start",
+  "body": "Starting FOLFOX. Port placed. Discussed neuropathy, nausea and cold sensitivity.",
+  "text": "Chemotherapy start\nStarting FOLFOX. Port placed. Discussed neuropathy, nausea and cold sensitivity.",
+  "note_type": "Visit note",
+  "visit_date": "2026-02-09",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0009",
+  "id": "0009-n03",
+  "title": "Mid-treatment review",
+  "body": "Grade 2 peripheral neuropathy. Dropping oxaliplatin, continuing 5-FU. CEA trending down.",
+  "text": "Mid-treatment review\nGrade 2 peripheral neuropathy. Dropping oxaliplatin, continuing 5-FU. CEA trending down.",
+  "note_type": "Visit note",
+  "visit_date": "2026-05-09",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0009",
+  "id": "0009-n04",
+  "title": "Surveillance CT",
+  "body": "No evidence of disease in chest, abdomen or pelvis. Continue surveillance with CEA every 3 months.",
+  "text": "Surveillance CT\nNo evidence of disease in chest, abdomen or pelvis. Continue surveillance with CEA every 3 months.",
+  "note_type": "Result",
+  "visit_date": "2026-08-27",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0010",
+  "id": "0010-n01",
+  "title": "Initial consult",
+  "body": "82-year-old woman with newly diagnosed ER+/PR+/HER2- invasive lobular carcinoma, clinical stage IIA. Oncotype DX recurrence score 19 pending review.\n\n## Plan\n- Lumpectomy with sentinel node biopsy.\n- Adjuvant endocrine therapy after surgery.\n- Bone density scan before aromatase inhibitor.",
+  "text": "Initial consult\n82-year-old woman with newly diagnosed ER+/PR+/HER2- invasive lobular carcinoma, clinical stage IIA. Oncotype DX recurrence score 19 pending review.\n\n## Plan\n- Lumpectomy with sentinel node biopsy.\n- Adjuvant endocrine therapy after surgery.\n- Bone density scan before aromatase inhibitor.",
+  "note_type": "Visit note",
+  "visit_date": "2026-01-11",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0010",
+  "id": "0010-n02",
+  "title": "Surgical pathology",
+  "body": "Lumpectomy: 2.2 cm invasive lobular carcinoma, margins negative, 0/3 sentinel nodes positive.",
+  "text": "Surgical pathology\nLumpectomy: 2.2 cm invasive lobular carcinoma, margins negative, 0/3 sentinel nodes positive.",
+  "note_type": "Result",
+  "visit_date": "2026-02-10",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0010",
+  "id": "0010-n03",
+  "title": "Adjuvant therapy start",
+  "body": "Starting letrozole. Discussed joint pain and hot flashes. Considering CDK4/6 inhibitor given risk features; will discuss trials of ribociclib or abemaciclib in the adjuvant setting.",
+  "text": "Adjuvant therapy start\nStarting letrozole. Discussed joint pain and hot flashes. Considering CDK4/6 inhibitor given risk features; will discuss trials of ribociclib or abemaciclib in the adjuvant setting.",
+  "note_type": "Visit note",
+  "visit_date": "2026-03-12",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0010",
+  "id": "0010-n04",
+  "title": "3-month follow-up",
+  "body": "Arthralgias grade 1, manageable. No signs of recurrence on exam. Continue letrozole. Calcium and vitamin D.",
+  "text": "3-month follow-up\nArthralgias grade 1, manageable. No signs of recurrence on exam. Continue letrozole. Calcium and vitamin D.",
+  "note_type": "Visit note",
+  "visit_date": "2026-06-10",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0010",
+  "id": "0010-n05",
+  "title": "6-month follow-up",
+  "body": "Doing well. Mammogram clear. Interested in exercise programs and survivorship trials.",
+  "text": "6-month follow-up\nDoing well. Mammogram clear. Interested in exercise programs and survivorship trials.",
+  "note_type": "Visit note",
+  "visit_date": "2026-09-08",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0011",
+  "id": "0011-n01",
+  "title": "Initial consult",
+  "body": "55-year-old woman with newly diagnosed ER+/PR+/HER2- invasive lobular carcinoma, clinical stage IIB. Oncotype DX recurrence score 23 pending review.\n\n## Plan\n- Lumpectomy with sentinel node biopsy.\n- Adjuvant endocrine therapy after surgery.\n- Bone density scan before aromatase inhibitor.",
+  "text": "Initial consult\n55-year-old woman with newly diagnosed ER+/PR+/HER2- invasive lobular carcinoma, clinical stage IIB. Oncotype DX recurrence score 23 pending review.\n\n## Plan\n- Lumpectomy with sentinel node biopsy.\n- Adjuvant endocrine therapy after surgery.\n- Bone density scan before aromatase inhibitor.",
+  "note_type": "Visit note",
+  "visit_date": "2026-01-18",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0011",
+  "id": "0011-n02",
+  "title": "Surgical pathology",
+  "body": "Lumpectomy: 2.2 cm invasive lobular carcinoma, margins negative, 0/3 sentinel nodes positive.",
+  "text": "Surgical pathology\nLumpectomy: 2.2 cm invasive lobular carcinoma, margins negative, 0/3 sentinel nodes positive.",
+  "note_type": "Result",
+  "visit_date": "2026-02-17",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0011",
+  "id": "0011-n03",
+  "title": "Adjuvant therapy start",
+  "body": "Starting letrozole. Discussed joint pain and hot flashes. Considering CDK4/6 inhibitor given risk features; will discuss trials of ribociclib or abemaciclib in the adjuvant setting.",
+  "text": "Adjuvant therapy start\nStarting letrozole. Discussed joint pain and hot flashes. Considering CDK4/6 inhibitor given risk features; will discuss trials of ribociclib or abemaciclib in the adjuvant setting.",
+  "note_type": "Visit note",
+  "visit_date": "2026-03-19",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0011",
+  "id": "0011-n04",
+  "title": "3-month follow-up",
+  "body": "Arthralgias grade 1, manageable. No signs of recurrence on exam. Continue letrozole. Calcium and vitamin D.",
+  "text": "3-month follow-up\nArthralgias grade 1, manageable. No signs of recurrence on exam. Continue letrozole. Calcium and vitamin D.",
+  "note_type": "Visit note",
+  "visit_date": "2026-06-17",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0011",
+  "id": "0011-n05",
+  "title": "6-month follow-up",
+  "body": "Doing well. Mammogram clear. Interested in exercise programs and survivorship trials.",
+  "text": "6-month follow-up\nDoing well. Mammogram clear. Interested in exercise programs and survivorship trials.",
+  "note_type": "Visit note",
+  "visit_date": "2026-09-15",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0012",
+  "id": "0012-n01",
+  "title": "Initial consult",
+  "body": "37-year-old woman with newly diagnosed ER+/PR+/HER2- invasive lobular carcinoma, clinical stage IIB. Oncotype DX recurrence score 23 pending review.\n\n## Plan\n- Lumpectomy with sentinel node biopsy.\n- Adjuvant endocrine therapy after surgery.\n- Bone density scan before aromatase inhibitor.",
+  "text": "Initial consult\n37-year-old woman with newly diagnosed ER+/PR+/HER2- invasive lobular carcinoma, clinical stage IIB. Oncotype DX recurrence score 23 pending review.\n\n## Plan\n- Lumpectomy with sentinel node biopsy.\n- Adjuvant endocrine therapy after surgery.\n- Bone density scan before aromatase inhibitor.",
+  "note_type": "Visit note",
+  "visit_date": "2026-07-03",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0012",
+  "id": "0012-n02",
+  "title": "Surgical pathology",
+  "body": "Lumpectomy: 2.2 cm invasive lobular carcinoma, margins negative, 0/3 sentinel nodes positive.",
+  "text": "Surgical pathology\nLumpectomy: 2.2 cm invasive lobular carcinoma, margins negative, 0/3 sentinel nodes positive.",
+  "note_type": "Result",
+  "visit_date": "2026-08-02",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0012",
+  "id": "0012-n03",
+  "title": "Adjuvant therapy start",
+  "body": "Starting letrozole. Discussed joint pain and hot flashes. Considering CDK4/6 inhibitor given risk features; will discuss trials of ribociclib or abemaciclib in the adjuvant setting.",
+  "text": "Adjuvant therapy start\nStarting letrozole. Discussed joint pain and hot flashes. Considering CDK4/6 inhibitor given risk features; will discuss trials of ribociclib or abemaciclib in the adjuvant setting.",
+  "note_type": "Visit note",
+  "visit_date": "2026-09-01",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0013",
+  "id": "0013-n01",
+  "title": "Palpitations consult",
+  "body": "56-year-old man with intermittent palpitations. ECG shows atrial fibrillation with rapid ventricular response. CHA2DS2-VASc 2. Started apixaban and diltiazem.",
+  "text": "Palpitations consult\n56-year-old man with intermittent palpitations. ECG shows atrial fibrillation with rapid ventricular response. CHA2DS2-VASc 2. Started apixaban and diltiazem.",
+  "note_type": "Visit note",
+  "visit_date": "2026-01-16",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0013",
+  "id": "0013-n02",
+  "title": "Holter monitor",
+  "body": "AF burden 28%. Average heart rate 88.",
+  "text": "Holter monitor\nAF burden 28%. Average heart rate 88.",
+  "note_type": "Result",
+  "visit_date": "2026-03-02",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0013",
+  "id": "0013-n03",
+  "title": "Rhythm control discussion",
+  "body": "Symptoms persist despite rate control. Referred for catheter ablation, pulsed field ablation option discussed.",
+  "text": "Rhythm control discussion\nSymptoms persist despite rate control. Referred for catheter ablation, pulsed field ablation option discussed.",
+  "note_type": "Visit note",
+  "visit_date": "2026-03-17",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0013",
+  "id": "0013-n04",
+  "title": "Post-ablation follow-up",
+  "body": "In sinus rhythm since ablation. Continue anticoagulation for at least 3 months.",
+  "text": "Post-ablation follow-up\nIn sinus rhythm since ablation. Continue anticoagulation for at least 3 months.",
+  "note_type": "Visit note",
+  "visit_date": "2026-06-15",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0014",
+  "id": "0014-n01",
+  "title": "Initial consult",
+  "body": "59-year-old man with sigmoid colon adenocarcinoma found on colonoscopy for rectal bleeding. Stage IVA. Tumor is MSI-high, KRAS wild-type. CEA 4.1 ng/mL.",
+  "text": "Initial consult\n59-year-old man with sigmoid colon adenocarcinoma found on colonoscopy for rectal bleeding. Stage IVA. Tumor is MSI-high, KRAS wild-type. CEA 4.1 ng/mL.",
+  "note_type": "Visit note",
+  "visit_date": "2026-04-25",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0014",
+  "id": "0014-n02",
+  "title": "Chemotherapy start",
+  "body": "Starting FOLFOX. Port placed. Discussed neuropathy, nausea and cold sensitivity.",
+  "text": "Chemotherapy start\nStarting FOLFOX. Port placed. Discussed neuropathy, nausea and cold sensitivity.",
+  "note_type": "Visit note",
+  "visit_date": "2026-05-16",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0014",
+  "id": "0014-n03",
+  "title": "Mid-treatment review",
+  "body": "Grade 2 peripheral neuropathy. Dropping oxaliplatin, continuing 5-FU. CEA trending down.",
+  "text": "Mid-treatment review\nGrade 2 peripheral neuropathy. Dropping oxaliplatin, continuing 5-FU. CEA trending down.",
+  "note_type": "Visit note",
+  "visit_date": "2026-08-13",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0015",
+  "id": "0015-n01",
+  "title": "Palpitations consult",
+  "body": "69-year-old man with intermittent palpitations. ECG shows atrial fibrillation with rapid ventricular response. CHA2DS2-VASc 5. Started apixaban and diltiazem.",
+  "text": "Palpitations consult\n69-year-old man with intermittent palpitations. ECG shows atrial fibrillation with rapid ventricular response. CHA2DS2-VASc 5. Started apixaban and diltiazem.",
+  "note_type": "Visit note",
+  "visit_date": "2026-06-24",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0015",
+  "id": "0015-n02",
+  "title": "Holter monitor",
+  "body": "AF burden 28%. Average heart rate 88.",
+  "text": "Holter monitor\nAF burden 28%. Average heart rate 88.",
+  "note_type": "Result",
+  "visit_date": "2026-08-08",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0015",
+  "id": "0015-n03",
+  "title": "Rhythm control discussion",
+  "body": "Symptoms persist despite rate control. Referred for catheter ablation, pulsed field ablation option discussed.",
+  "text": "Rhythm control discussion\nSymptoms persist despite rate control. Referred for catheter ablation, pulsed field ablation option discussed.",
+  "note_type": "Visit note",
+  "visit_date": "2026-08-23",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0016",
+  "id": "0016-n01",
+  "title": "Palpitations consult",
+  "body": "43-year-old man with intermittent palpitations. ECG shows atrial fibrillation with rapid ventricular response. CHA2DS2-VASc 3. Started apixaban and diltiazem.",
+  "text": "Palpitations consult\n43-year-old man with intermittent palpitations. ECG shows atrial fibrillation with rapid ventricular response. CHA2DS2-VASc 3. Started apixaban and diltiazem.",
+  "note_type": "Visit note",
+  "visit_date": "2026-05-05",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0016",
+  "id": "0016-n02",
+  "title": "Holter monitor",
+  "body": "AF burden 12%. Average heart rate 88.",
+  "text": "Holter monitor\nAF burden 12%. Average heart rate 88.",
+  "note_type": "Result",
+  "visit_date": "2026-06-19",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0016",
+  "id": "0016-n03",
+  "title": "Rhythm control discussion",
+  "body": "Symptoms persist despite rate control. Referred for catheter ablation, pulsed field ablation option discussed.",
+  "text": "Rhythm control discussion\nSymptoms persist despite rate control. Referred for catheter ablation, pulsed field ablation option discussed.",
+  "note_type": "Visit note",
+  "visit_date": "2026-07-04",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0016",
+  "id": "0016-n04",
+  "title": "Post-ablation follow-up",
+  "body": "In sinus rhythm since ablation. Continue anticoagulation for at least 3 months.",
+  "text": "Post-ablation follow-up\nIn sinus rhythm since ablation. Continue anticoagulation for at least 3 months.",
+  "note_type": "Visit note",
+  "visit_date": "2026-10-02",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0017",
+  "id": "0017-n01",
+  "title": "Initial consult",
+  "body": "68-year-old woman, former smoker (45 pack-years), presenting with cough and weight loss. CT shows right upper lobe mass with mediastinal nodes. Biopsy: adenocarcinoma of the lung, stage IVB.\n\n## Plan\n- Next-generation sequencing on tissue and blood.\n- Brain MRI.\n- Pulmonary function tests.",
+  "text": "Initial consult\n68-year-old woman, former smoker (45 pack-years), presenting with cough and weight loss. CT shows right upper lobe mass with mediastinal nodes. Biopsy: adenocarcinoma of the lung, stage IVB.\n\n## Plan\n- Next-generation sequencing on tissue and blood.\n- Brain MRI.\n- Pulmonary function tests.",
+  "note_type": "Visit note",
+  "visit_date": "2026-04-27",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0017",
+  "id": "0017-n02",
+  "title": "Molecular testing",
+  "body": "NGS result: ALK rearrangement. PD-L1 TPS 50%. TMB 4 mut/Mb.",
+  "text": "Molecular testing\nNGS result: ALK rearrangement. PD-L1 TPS 50%. TMB 4 mut/Mb.",
+  "note_type": "Result",
+  "visit_date": "2026-05-11",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0017",
+  "id": "0017-n03",
+  "title": "Treatment plan",
+  "body": "Discussed first-line alectinib based on ALK rearrangement. Reviewed side effects. ECOG performance status 0.",
+  "text": "Treatment plan\nDiscussed first-line alectinib based on ALK rearrangement. Reviewed side effects. ECOG performance status 0.",
+  "note_type": "Visit note",
+  "visit_date": "2026-05-15",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0017",
+  "id": "0017-n04",
+  "title": "Restaging CT",
+  "body": "Partial response, primary mass decreased 40%. No new lesions. Brain MRI clear.",
+  "text": "Restaging CT\nPartial response, primary mass decreased 40%. No new lesions. Brain MRI clear.",
+  "note_type": "Result",
+  "visit_date": "2026-07-26",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0018",
+  "id": "0018-n01",
+  "title": "Palpitations consult",
+  "body": "74-year-old woman with intermittent palpitations. ECG shows atrial fibrillation with rapid ventricular response. CHA2DS2-VASc 2. Started apixaban and diltiazem.",
+  "text": "Palpitations consult\n74-year-old woman with intermittent palpitations. ECG shows atrial fibrillation with rapid ventricular response. CHA2DS2-VASc 2. Started apixaban and diltiazem.",
+  "note_type": "Visit note",
+  "visit_date": "2026-01-18",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0018",
+  "id": "0018-n02",
+  "title": "Holter monitor",
+  "body": "AF burden 12%. Average heart rate 88.",
+  "text": "Holter monitor\nAF burden 12%. Average heart rate 88.",
+  "note_type": "Result",
+  "visit_date": "2026-03-04",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0018",
+  "id": "0018-n03",
+  "title": "Rhythm control discussion",
+  "body": "Symptoms persist despite rate control. Referred for catheter ablation, pulsed field ablation option discussed.",
+  "text": "Rhythm control discussion\nSymptoms persist despite rate control. Referred for catheter ablation, pulsed field ablation option discussed.",
+  "note_type": "Visit note",
+  "visit_date": "2026-03-19",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0018",
+  "id": "0018-n04",
+  "title": "Post-ablation follow-up",
+  "body": "In sinus rhythm since ablation. Continue anticoagulation for at least 3 months.",
+  "text": "Post-ablation follow-up\nIn sinus rhythm since ablation. Continue anticoagulation for at least 3 months.",
+  "note_type": "Visit note",
+  "visit_date": "2026-06-17",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0019",
+  "id": "0019-n01",
+  "title": "Initial consult",
+  "body": "40-year-old woman with sigmoid colon adenocarcinoma found on colonoscopy for rectal bleeding. Stage III. Tumor is MSS, BRAF V600E. CEA 4.1 ng/mL.",
+  "text": "Initial consult\n40-year-old woman with sigmoid colon adenocarcinoma found on colonoscopy for rectal bleeding. Stage III. Tumor is MSS, BRAF V600E. CEA 4.1 ng/mL.",
+  "note_type": "Visit note",
+  "visit_date": "2026-04-04",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0019",
+  "id": "0019-n02",
+  "title": "Chemotherapy start",
+  "body": "Starting FOLFOX. Port placed. Discussed neuropathy, nausea and cold sensitivity.",
+  "text": "Chemotherapy start\nStarting FOLFOX. Port placed. Discussed neuropathy, nausea and cold sensitivity.",
+  "note_type": "Visit note",
+  "visit_date": "2026-04-25",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0019",
+  "id": "0019-n03",
+  "title": "Mid-treatment review",
+  "body": "Grade 2 peripheral neuropathy. Dropping oxaliplatin, continuing 5-FU. CEA trending down.",
+  "text": "Mid-treatment review\nGrade 2 peripheral neuropathy. Dropping oxaliplatin, continuing 5-FU. CEA trending down.",
+  "note_type": "Visit note",
+  "visit_date": "2026-07-23",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0020",
+  "id": "0020-n01",
+  "title": "Initial consult",
+  "body": "## Subjective\n73-year-old woman referred after screening mammogram showed a 3.1 cm right breast mass. Core biopsy confirmed invasive ductal carcinoma. No prior cancer history. Family history: mother with breast cancer in her 60s.\n\n## Assessment\nInvasive ductal carcinoma, right breast, clinical stage IIIA. Receptors ER-/PR-/HER2 3+.\n\n## Plan\n- Staging CT chest/abdomen/pelvis and bone scan.\n- Baseline echocardiogram before HER2-directed therapy.\n- Discuss neoadjuvant chemotherapy with trastuzumab and pertuzumab.\n- Refer to genetics for BRCA testing.",
+  "text": "Initial consult\n## Subjective\n73-year-old woman referred after screening mammogram showed a 3.1 cm right breast mass. Core biopsy confirmed invasive ductal carcinoma. No prior cancer history. Family history: mother with breast cancer in her 60s.\n\n## Assessment\nInvasive ductal carcinoma, right breast, clinical stage IIIA. Receptors ER-/PR-/HER2 3+.\n\n## Plan\n- Staging CT chest/abdomen/pelvis and bone scan.\n- Baseline echocardiogram before HER2-directed therapy.\n- Discuss neoadjuvant chemotherapy with trastuzumab and pertuzumab.\n- Refer to genetics for BRCA testing.",
+  "note_type": "Visit note",
+  "visit_date": "2026-01-30",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0020",
+  "id": "0020-n02",
+  "title": "Pathology summary",
+  "body": "Core needle biopsy, right breast: invasive ductal carcinoma, grade 3. Receptors: ER-/PR-/HER2 3+ by IHC. Ki-67 40%. Lymphovascular invasion not identified on biopsy.",
+  "text": "Pathology summary\nCore needle biopsy, right breast: invasive ductal carcinoma, grade 3. Receptors: ER-/PR-/HER2 3+ by IHC. Ki-67 40%. Lymphovascular invasion not identified on biopsy.",
+  "note_type": "Result",
+  "visit_date": "2026-02-05",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0020",
+  "id": "0020-n03",
+  "title": "Baseline echocardiogram",
+  "body": "Transthoracic echo before trastuzumab. LVEF 62%. Normal wall motion. No valvular disease. Global longitudinal strain -20%. Cleared to start HER2-directed therapy with echo every 3 months.",
+  "text": "Baseline echocardiogram\nTransthoracic echo before trastuzumab. LVEF 62%. Normal wall motion. No valvular disease. Global longitudinal strain -20%. Cleared to start HER2-directed therapy with echo every 3 months.",
+  "note_type": "Result",
+  "visit_date": "2026-02-11",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0020",
+  "id": "0020-n04",
+  "title": "Cycle 1 neoadjuvant therapy",
+  "body": "## Subjective\nStarts cycle 1 of docetaxel, carboplatin, trastuzumab and pertuzumab (TCHP). Anxious but well informed.\n\n## Plan\n- Premedication per protocol.\n- Growth factor support.\n- Labs before each cycle.",
+  "text": "Cycle 1 neoadjuvant therapy\n## Subjective\nStarts cycle 1 of docetaxel, carboplatin, trastuzumab and pertuzumab (TCHP). Anxious but well informed.\n\n## Plan\n- Premedication per protocol.\n- Growth factor support.\n- Labs before each cycle.",
+  "note_type": "Visit note",
+  "visit_date": "2026-02-20",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0020",
+  "id": "0020-n05",
+  "title": "Cycle 3 check-in",
+  "body": "## Subjective\nMild fatigue and diarrhea grade 1, managed with loperamide. No neuropathy.\n\n## Objective\nBreast mass smaller on exam, now about 1.2 cm.\n\n## Plan\nContinue TCHP. Echo before cycle 4.",
+  "text": "Cycle 3 check-in\n## Subjective\nMild fatigue and diarrhea grade 1, managed with loperamide. No neuropathy.\n\n## Objective\nBreast mass smaller on exam, now about 1.2 cm.\n\n## Plan\nContinue TCHP. Echo before cycle 4.",
+  "note_type": "Visit note",
+  "visit_date": "2026-04-03",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0020",
+  "id": "0020-n06",
+  "title": "Echo before cycle 4",
+  "body": "LVEF 60%, a small drop from baseline 62%. No symptoms of heart failure. Continue trastuzumab with routine cardiac monitoring every 3 months.",
+  "text": "Echo before cycle 4\nLVEF 60%, a small drop from baseline 62%. No symptoms of heart failure. Continue trastuzumab with routine cardiac monitoring every 3 months.",
+  "note_type": "Result",
+  "visit_date": "2026-04-20",
+  "author": "Dr. Chen (Cardiology)"
+ },
+ {
+  "patient_id": "0020",
+  "id": "0020-n07",
+  "title": "Follow-up after cycle 4",
+  "body": "## Subjective\nCompleted cycle 4 of neoadjuvant therapy. Mild fatigue, no neuropathy. Appetite good. Asked whether any clinical trials could fit her after surgery.\n\n## Assessment\nResponding on exam. Ejection fraction stable on last echo.\n\n## Plan\n- Surgical consult after cycle 6.\n- Review recruiting adjuvant trials near home.\n- Repeat echo before surgery.",
+  "text": "Follow-up after cycle 4\n## Subjective\nCompleted cycle 4 of neoadjuvant therapy. Mild fatigue, no neuropathy. Appetite good. Asked whether any clinical trials could fit her after surgery.\n\n## Assessment\nResponding on exam. Ejection fraction stable on last echo.\n\n## Plan\n- Surgical consult after cycle 6.\n- Review recruiting adjuvant trials near home.\n- Repeat echo before surgery.",
+  "note_type": "Visit note",
+  "visit_date": "2026-04-24",
+  "author": "Dr. Rivera (Oncology)"
+ },
+ {
+  "patient_id": "0020",
+  "id": "0020-n08",
+  "title": "Phone call about trial options",
+  "body": "Patient called to ask about clinical trials for adjuvant HER2 therapy and about cardiac protection while on trastuzumab. Told her we will review options at the next visit.",
+  "text": "Phone call about trial options\nPatient called to ask about clinical trials for adjuvant HER2 therapy and about cardiac protection while on trastuzumab. Told her we will review options at the next visit.",
+  "note_type": "Phone call",
+  "visit_date": "2026-04-30",
+  "author": "Dr. Rivera (Oncology)"
+ }
+]

@@ -13,6 +13,11 @@ Everything is stored and searched in turbopuffer. All patients are synthetic.
 > script. PubMed abstracts and trial records are public data shown for demonstration only and
 > may be incomplete or out of date. Nothing here is medical advice.
 
+## Walkthrough notebook
+
+[`walkthrough/`](walkthrough/) rebuilds the data layer step by step, from upserts to hybrid search, on a
+20-record dataset in separate `wt-` namespaces. It opens in GitHub Codespaces or Google Colab; see its README.
+
 ## Deploy to Streamlit Community Cloud
 
 1. Push this folder to a GitHub repo (public or private).
