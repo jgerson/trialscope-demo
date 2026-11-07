@@ -9,13 +9,17 @@ screens map to steps the audience has already seen.
 
 ## Run it
 
+**Google Colab.** Use the Colab badge (or open
+[this link](https://colab.research.google.com/github/jgerson/trialscope-demo/blob/main/walkthrough/trialscope_walkthrough.ipynb)).
+Open the key icon (Secrets) in the left sidebar, add `TURBOPUFFER_API_KEY`, and switch on **Notebook access**.
+Then run the cells in order; the first one installs the turbopuffer client, and the data files load from this
+repository. To keep your own edits or outputs, use **File → Save a copy in Drive**.
+
 **GitHub Codespaces.** First add a Codespaces secret named `TURBOPUFFER_API_KEY` (GitHub → Settings →
 Codespaces → Secrets, with this repository selected). Then use the badge above, or **Code → Codespaces →
 Create codespace on main**. The codespace installs the dependencies and opens the notebook; pick the
 Python 3.12 kernel and run the cells in order.
 
-**Google Colab.** Use the Colab badge, add `TURBOPUFFER_API_KEY` under the key icon (Secrets), and run the
-cells. The data files load from this repository.
 
 Anywhere else: `pip install -r walkthrough/requirements.txt`, set `TURBOPUFFER_API_KEY`, and open the notebook
 from the `walkthrough` folder.
