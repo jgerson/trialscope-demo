@@ -1,0 +1,27 @@
+{
+  // GitHub Codespaces for the TrialScope walkthrough notebook (walkthrough/trialscope_walkthrough.ipynb).
+  "name": "TrialScope walkthrough",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install --user -r walkthrough/requirements.txt",
+  "secrets": {
+    "TURBOPUFFER_API_KEY": {
+      "description": "Your turbopuffer API key. The walkthrough only reads and writes namespaces starting with wt-.",
+      "documentationUrl": "https://turbopuffer.com/docs"
+    }
+  },
+  "containerEnv": {
+    "TURBOPUFFER_REGION": "aws-us-east-1"
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["walkthrough/trialscope_walkthrough.ipynb"]
+    },
+    "vscode": {
+      "extensions": ["ms-python.python", "ms-toolsai.jupyter"],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "jupyter.notebookFileRoot": "${workspaceFolder}/walkthrough"
+      }
+    }
+  }
+}
