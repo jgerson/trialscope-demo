@@ -49,8 +49,9 @@ def main() -> None:
 
         # Full text: fetch 50 passages, keep the best per article (same as the app).
         f = t.search_namespace(config.NS_PMC, q, "hybrid", None, 50)
-        seen, articles = set(), []
+        seen, articles, by_article = set(), [], {}
         for h in f["hits"]:
+            by_article.setdefault(h["pmid"], []).append(h)
             if h["pmid"] in seen:
                 continue
             seen.add(h["pmid"])
@@ -58,8 +59,10 @@ def main() -> None:
         f_rank = next((i for i, h in enumerate(articles[:10], 1) if str(h["pmid"]) == pmid), None)
         f_hit = next((h for h in articles[:10] if str(h["pmid"]) == pmid), None)
         f_shown = bool(f_hit and answer.lower() in (f_hit.get("passage") or "").lower())
+        top3 = by_article.get(f_hit["pmid"], [])[:3] if f_hit else []
+        f_shown3 = any(answer.lower() in (h.get("passage") or "").lower() for h in top3)
         rows.append({"q": q, "abstract_rank": a_rank, "abstract_shows_answer": a_shown,
-                     "fulltext_rank": f_rank, "fulltext_shows_answer": f_shown,
+                     "fulltext_rank": f_rank, "fulltext_shows_answer": f_shown, "fulltext_top3_shows_answer": f_shown3,
                      "section": f_hit.get("section") if f_hit else None})
 
     print(f"{'#':>2}  {'abstract':>12}  {'full text':>12}  section of best passage")
@@ -73,6 +76,8 @@ def main() -> None:
         top3 = sum(1 for r in rows if r[f"{k}_rank"] and r[f"{k}_rank"] <= 3)
         shown = sum(1 for r in rows if r[f"{k}_shows_answer"])
         print(f"{label:>10}: paper in top 10 for {found}/{n}, top 3 for {top3}/{n}, answer visible for {shown}/{n}")
+    top3_shown = sum(1 for r in rows if r["fulltext_top3_shows_answer"])
+    print(f"{'':>10}  full text, best 3 passages per article: answer visible for {top3_shown}/{n}")
     json.dump(rows, open(os.path.join(DATA, "eval_fulltext.json"), "w"), indent=2)
 
 

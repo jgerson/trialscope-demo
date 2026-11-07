@@ -46,6 +46,7 @@ The copilot is optional: without `ANTHROPIC_API_KEY` the app runs search-only.
 | --- | --- | --- |
 | `ts-trials` | ~49,400 interventional studies, most recently updated first | `python ingest/trials.py --limit 50000` |
 | `ts-pubmed` | ~71,000 oncology and cardiology abstracts, 2015 onward | `python ingest/pubmed.py --limit 100000` |
+| `ts-pmc` | 22,664 full-text passages from 2,000 open-access PMC articles (CC BY and similar), 2024 onward | `python ingest/pmc.py select`, `fetch`, `load` |
 | `ts-patients` | Directory of 100 synthetic patients | `python ingest/patients.py --count 100` |
 | `ts-patient-0001` … `0100` | One namespace per patient with their visit notes | same script |
 
@@ -94,6 +95,8 @@ Text is embedded by turbopuffer itself (native embedding, `voyage/voyage-4-lite`
 5. Copilot (with a key): "Is there a recruiting trial Dana might qualify for after surgery?"
 
 ## Data sources
+
+- Full text: [PubMed Central Open Access subset](https://pmc.ncbi.nlm.nih.gov/tools/textmining/) via the [PMC cloud service](https://pmc.ncbi.nlm.nih.gov/tools/cloud); only articles licensed for commercial reuse. `python ingest/eval_fulltext.py` compares full text with abstracts on 10 questions.
 
 - Clinical trials: [ClinicalTrials.gov API v2](https://clinicaltrials.gov/data-api/api), U.S. National Library of Medicine.
 - Abstracts: [PubMed via NCBI E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK25501/), U.S. National Library of Medicine.

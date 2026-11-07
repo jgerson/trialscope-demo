@@ -79,6 +79,7 @@ DISPLAY_ATTRS = {
     "trials": ["title", "summary", "nct_id", "status", "phases", "conditions", "countries", "sponsor", "start_year"],
     "pubmed": ["title", "abstract", "pmid", "journal", "year", "pub_types", "topic"],
     "notes": ["title", "body", "note_type", "visit_date", "author"],
+    "pmc": ["title", "passage", "section", "section_top", "chunk", "chunks_total", "pmid", "pmcid", "journal", "year", "license"],
 }
 
 
@@ -87,6 +88,8 @@ def kind_of(namespace: str) -> str:
         return "trials"
     if namespace == config.NS_PUBMED:
         return "pubmed"
+    if namespace == config.NS_PMC:
+        return "pmc"
     return "notes"
 
 
