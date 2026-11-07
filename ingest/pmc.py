@@ -161,7 +161,8 @@ def _text(el) -> str:
     parts: list[str] = []
 
     def walk(n):
-        if n.tag in ("table-wrap", "fig", "table", "disp-formula", "graphic", "supplementary-material"):
+        # tex-math is the LaTeX copy of a formula; the MathML copy beside it reads cleanly ("Wi=A").
+        if n.tag in ("table-wrap", "fig", "table", "disp-formula", "graphic", "supplementary-material", "tex-math"):
             if n is not el and n.tail:
                 parts.append(n.tail)
             return
@@ -184,6 +185,15 @@ def _text(el) -> str:
     return t.strip()
 
 
+def clean_heading(t: str) -> str:
+    """'1. INTRODUCTION' -> 'Introduction', '2.3 Statistical analysis' -> 'Statistical analysis'."""
+    t = re.sub(r"\s+", " ", t).strip()
+    t = re.sub(r"^(?:(?:\d+|[IVXivx]+|[A-Z])(?:\.\d+)*[.)]?\s+)", "", t).strip(" .:")
+    if t.isupper() and len(t) > 3:
+        t = t.capitalize()
+    return t
+
+
 def sections(root) -> list[tuple[str, str, list[str]]]:
     """(top-level section, subsection, paragraphs) in reading order. Abstract first, then the body."""
     out: list[tuple[str, str, list[str]]] = []
@@ -198,7 +208,7 @@ def sections(root) -> list[tuple[str, str, list[str]]]:
 
     def title_of(sec) -> str:
         t = sec.find("title")
-        return re.sub(r"\s+", " ", "".join(t.itertext())).strip() if t is not None else ""
+        return clean_heading("".join(t.itertext())) if t is not None else ""
 
     def walk(sec, top, sub):
         paras = [t for t in (_text(p) for p in sec.findall("./p")) if t]
