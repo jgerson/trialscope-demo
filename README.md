@@ -20,7 +20,7 @@ with full-text article search, trial eligibility pages and Clerk sign-in, is
 
 ## Walkthrough notebook
 
-[`walkthrough/`](walkthrough/) is a ten-minute notebook on 12 real trials typed into the notebook: load with native
+[`walkthrough/`](walkthrough/) is a ten-minute, self-contained notebook on 8 real trials typed into it: load with native
 embedding, keyword, vector and hybrid search, patient filters and a namespace per patient. It opens in Google
 Colab or GitHub Codespaces; see its README. A longer, step-by-step version sits next to it.
 

@@ -1,6 +1,6 @@
 # TrialScope walkthrough
 
-A short notebook that shows what TrialScope does with turbopuffer, on 12 real ClinicalTrials.gov studies typed
+A short notebook that shows what TrialScope does with turbopuffer, on 8 real ClinicalTrials.gov studies typed
 into the notebook itself: load documents with native embedding, search by keyword, by meaning and both at once,
 filter to trials a patient could join, and keep each patient's notes in their own namespace. It takes about ten
 minutes and nothing is downloaded. Run it before showing the app.
@@ -21,12 +21,13 @@ Anywhere else: `pip install -r walkthrough/requirements.txt`, set `TURBOPUFFER_A
 
 ## What it touches
 
-Two namespaces, `quickstart-trials` and `quickstart-patient-dana`. The last cell deletes them. The app's `ts-`
-namespaces are never touched. A run costs a fraction of a cent.
+Only its own two namespaces, named fresh for each run (`quickstart-<random>-trials` and
+`quickstart-<random>-patient-dana`), so several people can run it at once on the same key. It loads its own sample
+data and never reads any other namespace. The last cell deletes the pair. A run costs a fraction of a cent.
 
 ## The data
 
-The 12 trials are real ClinicalTrials.gov records (six breast cancer, six heart), shortened to their title and
+The 8 trials are real ClinicalTrials.gov records (five breast cancer, three heart), shortened to their title and
 first sentence or two. Dana and her four notes are made up. Trial records are public data and may be out of date.
 
 ## The detailed version
