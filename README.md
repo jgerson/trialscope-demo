@@ -20,8 +20,9 @@ with full-text article search, trial eligibility pages and Clerk sign-in, is
 
 ## Walkthrough notebook
 
-[`walkthrough/`](walkthrough/) rebuilds the data layer step by step, from upserts to hybrid search, on a
-20-record dataset in separate `wt-` namespaces. It opens in GitHub Codespaces or Google Colab; see its README.
+[`walkthrough/`](walkthrough/) is a ten-minute notebook on 12 real trials typed into the notebook: load with native
+embedding, keyword, vector and hybrid search, patient filters and a namespace per patient. It opens in Google
+Colab or GitHub Codespaces; see its README. A longer, step-by-step version sits next to it.
 
 ## Deploy to Streamlit Community Cloud
 
